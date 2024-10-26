@@ -1,13 +1,30 @@
 import mysql.connector
 from collections import defaultdict
+import csv
+
+def read_csv(file_path):
+    """Read diseases and symptoms from a CSV file."""
+    disease_map = defaultdict(list)
+    with open(file_path, mode='r', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            disease = row['Disease']
+            symptoms = row['Symptom'].split('^')
+            disease_map[disease].extend(symptoms)
+    
+    # Remove duplicate symptoms for each disease
+    for disease, symps in disease_map.items():
+        disease_map[disease] = list(set(symps))
+    
+    return disease_map
 
 def connect_to_db():
     """ Create a connection to the MySQL database """
     connection = mysql.connector.connect(
         host='localhost',
-        user='your_username',  # Replace with your username
-        password='your_password',  # Replace with your password
-        database='your_database'  # Replace with your database name
+        user='root',  # Replace with your username
+        password='xiaomi2004yy',  # Replace with your password
+        database='cs222'  # Replace with your database name
     )
     return connection
 
@@ -67,8 +84,16 @@ def calculate_possibility(user_symptoms):
 
 # Example usage
 if __name__ == "__main__":
-    symptoms = ['headache', 'fever']  # User-provided symptoms list
-    result = find_diseases_by_symptoms(symptoms)
-    print(result)
-    possibility = calculate_possibility(result)
+    # symptoms = ['headache', 'fever']  # User-provided symptoms list
+    # result = find_diseases_by_symptoms(symptoms)
+    # print(result)
+    # possibility = calculate_possibility(result)
+    # print(possibility)
+
+    file_path = '/Users/yueyan/Documents/GitHub/Fall24-CS222/database1.csv'  # Path to your CSV file
+    symptoms = ['UMLS_C0008031_pain chest', 'UMLS_C0392680_shortness of breath']  # User-provided symptoms list
+    disease_map = read_csv(file_path)
+    matched_diseases = find_diseases_by_symptoms(symptoms)
+    print(matched_diseases)
+    possibility = calculate_possibility(symptoms, matched_diseases)
     print(possibility)
