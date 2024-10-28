@@ -43,8 +43,32 @@ def find_diseases_by_symptoms(symptoms):
     
     return disease_map
 
+def calculate_possibility(user_symptoms):
+    """
+    Calculate the overlap rate between user-provided symptoms and each possible disease's symptoms.
+    
+    Parameters:
+    - user_symptoms (list): A list of symptoms provided by the user.
+    - disease_map (dict): A dictionary where keys are disease names and values are lists of symptoms.
+    
+    Returns:
+    - dict: A dictionary with disease names as keys and their overlap rate as values.
+    """
+    disease_map = find_diseases_by_symptoms(user_symptoms)
+    user_symptoms_set = set(user_symptoms)
+    possibilities = {}
+    for disease in disease_map:
+        disease_symptoms_set = set(symptoms)
+        common_symptoms = user_symptoms_set.intersection(disease_symptoms_set)
+        possibility = len(common_symptoms) / len(user_symptoms_set)
+        possibilities[disease] = possibility
+    
+    return possibilities
+
 # Example usage
 if __name__ == "__main__":
     symptoms = ['headache', 'fever']  # User-provided symptoms list
     result = find_diseases_by_symptoms(symptoms)
     print(result)
+    possibility = calculate_possibility(result)
+    print(possibility)
