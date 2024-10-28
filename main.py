@@ -7,10 +7,12 @@ from threading import Thread
 import shutil
 #import re
 
-
+from huggingface_hub import login
+login(token="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")
+tokenizer = AutoTokenizer.from_pretrained("epfl-llm/meditron-7b")
+model = AutoModelForCausalLM.from_pretrained("epfl-llm/meditron-7b")
 model_dir = r'C:\Llama3\LLM-Research\Meta-Llama-3-8B-Instruct'
 device = 'cuda'
-tokenizer = AutoTokenizer.from_pretrained(model_dir)
 sys.stdout.reconfigure(encoding='utf-8')
 
 
@@ -48,7 +50,8 @@ def talk_with_model(model, message):
        
         
 if  __name__ == '__main__':
-    model = start_model()
+    tokenizer = AutoTokenizer.from_pretrained("epfl-llm/meditron-7b")
+    model = AutoModelForCausalLM.from_pretrained("epfl-llm/meditron-7b")
     while True:
 
         print(f'How can I help you? \n')
