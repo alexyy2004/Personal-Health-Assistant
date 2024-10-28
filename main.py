@@ -9,17 +9,10 @@ import shutil
 
 from huggingface_hub import login
 login(token="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")
-tokenizer = AutoTokenizer.from_pretrained("epfl-llm/meditron-7b")
-model = AutoModelForCausalLM.from_pretrained("epfl-llm/meditron-7b")
-model_dir = r'C:\Llama3\LLM-Research\Meta-Llama-3-8B-Instruct'
 device = 'cuda'
 sys.stdout.reconfigure(encoding='utf-8')
-
-
-def start_model():
-    model = AutoModelForCausalLM.from_pretrained(model_dir, torch_dtype=torch.float16, device_map=device)
-    return model
-
+tokenizer = AutoTokenizer.from_pretrained("epfl-llm/meditron-7b")
+model = AutoModelForCausalLM.from_pretrained("epfl-llm/meditron-7b", torch_dtype=torch.float16, device_map=device)
 
 
 
@@ -35,6 +28,7 @@ def talk_with_model(model, message):
     attention_mask = torch.ones(model_input.input_ids.shape, dtype=torch.long, device=device)
     generated_ids = model.generate(
         model_input.input_ids,
+        max_new_tokens=1024,
         streamer=streamer,
         attention_mask=attention_mask,
         pad_token_id=tokenizer.eos_token_id,
@@ -50,8 +44,6 @@ def talk_with_model(model, message):
        
         
 if  __name__ == '__main__':
-    tokenizer = AutoTokenizer.from_pretrained("epfl-llm/meditron-7b")
-    model = AutoModelForCausalLM.from_pretrained("epfl-llm/meditron-7b")
     while True:
 
         print(f'How can I help you? \n')
@@ -59,7 +51,7 @@ if  __name__ == '__main__':
         if message == "Goodbye":
             break
         Messages = [
-            {'role': 'system', 'content': f"""Act as if you are my personal health expert. When I asked you about the symptom, you will need to tell me what is going wrong and what disease i may have."""},
+            {'role': 'system', 'content': f"""You are my personal medical assistant. Please answer all of my medical questions with accurate, up-to-date, and clear information. Provide detailed explanations in an easy-to-understand manner, and support your answers with relevant examples when appropriate. Remember to be professional, empathetic, and respectful in all your responses."""},
                 
             {'role': 'user', 'content': f""" {message}"""},
         ]
