@@ -1,0 +1,1868 @@
+Unnamed: 0,Disease,Count of Disease Occurrence,Symptom
+1.0,hypertensive disease,3363.0,pain chest
+2.0,hypertensive disease,3363.0,shortness of breath
+3.0,hypertensive disease,3363.0,dizziness
+4.0,hypertensive disease,3363.0,asthenia
+5.0,hypertensive disease,3363.0,fall
+6.0,hypertensive disease,3363.0,syncope
+7.0,hypertensive disease,3363.0,vertigo
+8.0,hypertensive disease,3363.0,sweat^sweating increased
+9.0,hypertensive disease,3363.0,palpitation
+10.0,hypertensive disease,3363.0,nausea
+11.0,hypertensive disease,3363.0,angina pectoris
+12.0,hypertensive disease,3363.0,pressure chest
+13.0,diabetes,1421.0,polyuria
+14.0,diabetes,1421.0,polydypsia
+15.0,diabetes,1421.0,shortness of breath
+16.0,diabetes,1421.0,pain chest
+17.0,diabetes,1421.0,asthenia
+18.0,diabetes,1421.0,nausea
+19.0,diabetes,1421.0,orthopnea
+20.0,diabetes,1421.0,rale
+21.0,diabetes,1421.0,sweat^sweating increased
+22.0,diabetes,1421.0,unresponsiveness
+23.0,diabetes,1421.0,mental status changes
+24.0,diabetes,1421.0,vertigo
+25.0,diabetes,1421.0,vomiting
+26.0,diabetes,1421.0,labored breathing
+27.0,depression mental^depressive disorder,1337.0,feeling suicidal
+28.0,depression mental^depressive disorder,1337.0,suicidal
+29.0,depression mental^depressive disorder,1337.0,hallucinations auditory
+30.0,depression mental^depressive disorder,1337.0,feeling hopeless
+31.0,depression mental^depressive disorder,1337.0,weepiness
+32.0,depression mental^depressive disorder,1337.0,sleeplessness
+33.0,depression mental^depressive disorder,1337.0,motor retardation
+34.0,depression mental^depressive disorder,1337.0,irritable mood
+35.0,depression mental^depressive disorder,1337.0,blackout
+36.0,depression mental^depressive disorder,1337.0,mood depressed
+37.0,depression mental^depressive disorder,1337.0,hallucinations visual
+38.0,depression mental^depressive disorder,1337.0,worry
+39.0,depression mental^depressive disorder,1337.0,agitation
+40.0,depression mental^depressive disorder,1337.0,tremor
+41.0,depression mental^depressive disorder,1337.0,intoxication
+42.0,depression mental^depressive disorder,1337.0,verbal auditory hallucinations
+43.0,depression mental^depressive disorder,1337.0,energy increased
+44.0,depression mental^depressive disorder,1337.0,difficulty
+45.0,depression mental^depressive disorder,1337.0,nightmare
+46.0,depression mental^depressive disorder,1337.0,unable to concentrate
+47.0,depression mental^depressive disorder,1337.0,homelessness
+48.0,coronary arteriosclerosis^coronary heart disease,1284.0,pain chest
+49.0,coronary arteriosclerosis^coronary heart disease,1284.0,angina pectoris
+50.0,coronary arteriosclerosis^coronary heart disease,1284.0,shortness of breath
+51.0,coronary arteriosclerosis^coronary heart disease,1284.0,hypokinesia
+52.0,coronary arteriosclerosis^coronary heart disease,1284.0,sweat^sweating increased
+53.0,coronary arteriosclerosis^coronary heart disease,1284.0,pressure chest
+54.0,coronary arteriosclerosis^coronary heart disease,1284.0,dyspnea on exertion
+55.0,coronary arteriosclerosis^coronary heart disease,1284.0,orthopnea
+56.0,coronary arteriosclerosis^coronary heart disease,1284.0,chest tightness
+57.0,pneumonia,1029.0,cough
+58.0,pneumonia,1029.0,fever
+59.0,pneumonia,1029.0,decreased translucency
+60.0,pneumonia,1029.0,shortness of breath
+61.0,pneumonia,1029.0,rale
+62.0,pneumonia,1029.0,productive cough
+63.0,pneumonia,1029.0,pleuritic pain
+64.0,pneumonia,1029.0,yellow sputum
+65.0,pneumonia,1029.0,breath sounds decreased
+66.0,pneumonia,1029.0,chill
+67.0,pneumonia,1029.0,rhonchus
+68.0,pneumonia,1029.0,green sputum
+69.0,pneumonia,1029.0,non-productive cough
+70.0,pneumonia,1029.0,wheezing
+71.0,pneumonia,1029.0,haemoptysis
+72.0,pneumonia,1029.0,distress respiratory
+73.0,pneumonia,1029.0,tachypnea
+74.0,pneumonia,1029.0,malaise
+75.0,pneumonia,1029.0,night sweat
+76.0,failure heart congestive,963.0,shortness of breath
+77.0,failure heart congestive,963.0,orthopnea
+78.0,failure heart congestive,963.0,jugular venous distention
+79.0,failure heart congestive,963.0,rale
+80.0,failure heart congestive,963.0,dyspnea
+81.0,failure heart congestive,963.0,cough
+82.0,failure heart congestive,963.0,wheezing
+83.0,accident cerebrovascular,885.0,dysarthria
+84.0,accident cerebrovascular,885.0,asthenia
+85.0,accident cerebrovascular,885.0,speech slurred
+86.0,accident cerebrovascular,885.0,facial paresis
+87.0,accident cerebrovascular,885.0,hemiplegia
+88.0,accident cerebrovascular,885.0,unresponsiveness
+89.0,accident cerebrovascular,885.0,seizure
+90.0,accident cerebrovascular,885.0,numbness
+91.0,asthma,835.0,wheezing
+92.0,asthma,835.0,cough
+93.0,asthma,835.0,shortness of breath
+94.0,asthma,835.0,chest tightness
+95.0,asthma,835.0,non-productive cough
+96.0,asthma,835.0,pleuritic pain
+97.0,asthma,835.0,productive cough
+98.0,asthma,835.0,symptom aggravating factors
+99.0,asthma,835.0,distress respiratory
+100.0,myocardial infarction,759.0,pain chest
+101.0,myocardial infarction,759.0,st segment elevation
+102.0,myocardial infarction,759.0,sweat^sweating increased
+103.0,myocardial infarction,759.0,shortness of breath
+104.0,myocardial infarction,759.0,st segment depression
+105.0,myocardial infarction,759.0,hypokinesia
+106.0,myocardial infarction,759.0,angina pectoris
+107.0,myocardial infarction,759.0,pressure chest
+108.0,myocardial infarction,759.0,t wave inverted
+109.0,myocardial infarction,759.0,orthopnea
+110.0,myocardial infarction,759.0,rale
+111.0,myocardial infarction,759.0,chest tightness
+112.0,myocardial infarction,759.0,presence of q wave
+113.0,myocardial infarction,759.0,palpitation
+114.0,myocardial infarction,759.0,dyspnea
+115.0,myocardial infarction,759.0,chest discomfort
+116.0,myocardial infarction,759.0,bradycardia
+117.0,myocardial infarction,759.0,syncope
+118.0,hypercholesterolemia,685.0,pain
+119.0,hypercholesterolemia,685.0,pain chest
+120.0,hypercholesterolemia,685.0,sweat^sweating increased
+121.0,hypercholesterolemia,685.0,nonsmoker
+122.0,hypercholesterolemia,685.0,pressure chest
+123.0,hypercholesterolemia,685.0,syncope
+124.0,hypercholesterolemia,685.0,numbness
+125.0,hypercholesterolemia,685.0,chest discomfort
+126.0,hypercholesterolemia,685.0,shortness of breath
+127.0,hypercholesterolemia,685.0,st segment depression
+128.0,hypercholesterolemia,685.0,worry
+129.0,hypercholesterolemia,685.0,t wave inverted
+130.0,hypercholesterolemia,685.0,bradycardia
+131.0,hypercholesterolemia,685.0,dyspnea
+132.0,infection,630.0,fever
+133.0,infection,630.0,erythema
+134.0,infection,630.0,decreased translucency
+135.0,infection,630.0,hepatosplenomegaly
+136.0,infection,630.0,chill
+137.0,infection,630.0,pruritus
+138.0,infection,630.0,diarrhea
+139.0,infection,630.0,abscess bacterial
+140.0,infection,630.0,swelling
+141.0,infection,630.0,pain
+142.0,infection,630.0,apyrexial
+143.0,infection,630.0,cough
+144.0,infection urinary tract,597.0,fever
+145.0,infection urinary tract,597.0,dysuria
+146.0,infection urinary tract,597.0,hematuria
+147.0,infection urinary tract,597.0,renal angle tenderness
+148.0,infection urinary tract,597.0,lethargy
+149.0,infection urinary tract,597.0,asthenia
+150.0,infection urinary tract,597.0,hyponatremia
+151.0,infection urinary tract,597.0,hemodynamically stable
+152.0,infection urinary tract,597.0,distress respiratory
+153.0,infection urinary tract,597.0,difficulty passing urine
+154.0,infection urinary tract,597.0,mental status changes
+155.0,infection urinary tract,597.0,consciousness clear
+156.0,anemia,544.0,chill
+157.0,anemia,544.0,guaiac positive
+158.0,anemia,544.0,monoclonal
+159.0,anemia,544.0,ecchymosis
+160.0,anemia,544.0,tumor cell invasion
+161.0,anemia,544.0,haemorrhage
+162.0,anemia,544.0,pallor
+163.0,anemia,544.0,asthenia
+164.0,anemia,544.0,fatigue
+165.0,anemia,544.0,heme positive
+166.0,anemia,544.0,pain back
+167.0,anemia,544.0,orthostasis
+168.0,anemia,544.0,hyponatremia
+169.0,anemia,544.0,dizziness
+170.0,anemia,544.0,shortness of breath
+171.0,anemia,544.0,pain
+172.0,anemia,544.0,rhonchus
+173.0,anemia,544.0,arthralgia
+174.0,anemia,544.0,swelling
+175.0,anemia,544.0,transaminitis
+176.0,chronic obstructive airway disease,524.0,shortness of breath
+177.0,chronic obstructive airway disease,524.0,wheezing
+178.0,chronic obstructive airway disease,524.0,cough
+179.0,chronic obstructive airway disease,524.0,dyspnea
+180.0,chronic obstructive airway disease,524.0,distress respiratory
+181.0,chronic obstructive airway disease,524.0,sputum purulent
+182.0,chronic obstructive airway disease,524.0,hypoxemia
+183.0,chronic obstructive airway disease,524.0,hypercapnia
+184.0,chronic obstructive airway disease,524.0,patient non compliance
+185.0,chronic obstructive airway disease,524.0,chest tightness
+186.0,dementia,504.0,fever
+187.0,dementia,504.0,fall
+188.0,dementia,504.0,unresponsiveness
+189.0,dementia,504.0,lethargy
+190.0,dementia,504.0,agitation
+191.0,dementia,504.0,ecchymosis
+192.0,dementia,504.0,syncope
+193.0,dementia,504.0,rale
+194.0,dementia,504.0,unconscious state
+195.0,dementia,504.0,cough
+196.0,dementia,504.0,bedridden^bedridden
+197.0,dementia,504.0,pain
+198.0,dementia,504.0,facial paresis
+199.0,dementia,504.0,abdominal tenderness
+200.0,dementia,504.0,rhonchus
+201.0,dementia,504.0,unsteady gait
+202.0,dementia,504.0,hallucinations auditory
+203.0,insufficiency renal,445.0,shortness of breath
+204.0,insufficiency renal,445.0,hyperkalemia
+205.0,insufficiency renal,445.0,orthopnea
+206.0,insufficiency renal,445.0,rale
+207.0,insufficiency renal,445.0,urgency of micturition
+208.0,insufficiency renal,445.0,ascites
+209.0,insufficiency renal,445.0,guaiac positive
+210.0,insufficiency renal,445.0,asthenia
+211.0,insufficiency renal,445.0,apyrexial
+212.0,insufficiency renal,445.0,mental status changes
+213.0,insufficiency renal,445.0,dyspnea
+214.0,insufficiency renal,445.0,difficulty
+215.0,insufficiency renal,445.0,diarrhea
+216.0,insufficiency renal,445.0,hypotension
+217.0,insufficiency renal,445.0,breath sounds decreased
+218.0,insufficiency renal,445.0,swelling
+219.0,insufficiency renal,445.0,hypokinesia
+220.0,confusion,408.0,seizure
+221.0,confusion,408.0,enuresis
+222.0,confusion,408.0,lethargy
+223.0,confusion,408.0,speech slurred
+224.0,confusion,408.0,fall
+225.0,confusion,408.0,consciousness clear
+226.0,confusion,408.0,mental status changes
+227.0,confusion,408.0,asterixis
+228.0,confusion,408.0,unconscious state
+229.0,confusion,408.0,agitation
+230.0,confusion,408.0,muscle twitch
+231.0,confusion,408.0,asthenia
+232.0,confusion,408.0,sleepy
+233.0,confusion,408.0,dizziness
+234.0,confusion,408.0,headache
+235.0,confusion,408.0,dysarthria
+236.0,confusion,408.0,lightheadedness
+237.0,confusion,408.0,tremor
+238.0,confusion,408.0,hyponatremia
+239.0,confusion,408.0,unresponsiveness
+240.0,degenerative polyarthritis,405.0,pain
+241.0,degenerative polyarthritis,405.0,food intolerance
+242.0,degenerative polyarthritis,405.0,numbness of hand
+243.0,degenerative polyarthritis,405.0,general discomfort
+244.0,degenerative polyarthritis,405.0,drowsiness
+245.0,degenerative polyarthritis,405.0,asthenia
+246.0,degenerative polyarthritis,405.0,nonsmoker
+247.0,degenerative polyarthritis,405.0,non-productive cough
+248.0,degenerative polyarthritis,405.0,polydypsia
+249.0,degenerative polyarthritis,405.0,stiffness
+250.0,degenerative polyarthritis,405.0,unsteady gait
+251.0,hypothyroidism,398.0,shortness of breath
+252.0,hypothyroidism,398.0,prostatism
+253.0,hypothyroidism,398.0,drowsiness^sleepy
+254.0,hypothyroidism,398.0,hyponatremia
+255.0,hypothyroidism,398.0,fall
+256.0,hypothyroidism,398.0,unsteady gait
+257.0,hypothyroidism,398.0,polyuria
+258.0,hypothyroidism,398.0,hypotension
+259.0,hypothyroidism,398.0,difficulty
+260.0,hypothyroidism,398.0,syncope
+261.0,hypothyroidism,398.0,nightmare
+262.0,hypothyroidism,398.0,speech slurred
+263.0,hypothyroidism,398.0,weight gain
+264.0,hypothyroidism,398.0,asthenia
+265.0,hypothyroidism,398.0,fatigue^tired
+266.0,hypothyroidism,398.0,agitation
+267.0,hypothyroidism,398.0,mental status changes
+268.0,hypothyroidism,398.0,motor retardation
+269.0,hypothyroidism,398.0,vomiting
+270.0,hypothyroidism,398.0,numbness
+271.0,hypothyroidism,398.0,mass of body structure
+272.0,anxiety state,390.0,worry
+273.0,anxiety state,390.0,feeling suicidal
+274.0,anxiety state,390.0,suicidal
+275.0,anxiety state,390.0,sleeplessness
+276.0,anxiety state,390.0,feeling hopeless
+277.0,anxiety state,390.0,irritable mood
+278.0,anxiety state,390.0,tremor
+279.0,anxiety state,390.0,blackout
+280.0,anxiety state,390.0,weepiness
+281.0,anxiety state,390.0,has religious belief
+282.0,anxiety state,390.0,nervousness
+283.0,anxiety state,390.0,hallucinations visual
+284.0,anxiety state,390.0,formication
+285.0,anxiety state,390.0,difficulty
+286.0,anxiety state,390.0,pain chest
+287.0,anxiety state,390.0,patient non compliance
+288.0,anxiety state,390.0,agitation
+289.0,anxiety state,390.0,palpitation
+290.0,anxiety state,390.0,hallucinations auditory
+291.0,anxiety state,390.0,mood depressed
+292.0,anxiety state,390.0,hot flush
+293.0,anxiety state,390.0,pain
+294.0,anxiety state,390.0,consciousness clear
+295.0,anxiety state,390.0,nightmare
+296.0,malignant neoplasms^primary malignant neoplasm,354.0,pain
+297.0,malignant neoplasms^primary malignant neoplasm,354.0,mass of body structure
+298.0,malignant neoplasms^primary malignant neoplasm,354.0,lesion
+299.0,malignant neoplasms^primary malignant neoplasm,354.0,cushingoid facies^cushingoid habitus
+300.0,malignant neoplasms^primary malignant neoplasm,354.0,emphysematous change
+301.0,malignant neoplasms^primary malignant neoplasm,354.0,decreased body weight
+302.0,malignant neoplasms^primary malignant neoplasm,354.0,ascites
+303.0,malignant neoplasms^primary malignant neoplasm,354.0,hoarseness
+304.0,malignant neoplasms^primary malignant neoplasm,354.0,thicken
+305.0,malignant neoplasms^primary malignant neoplasm,354.0,hematuria
+306.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,fever
+307.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,night sweat
+308.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,spontaneous rupture of membranes
+309.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,cough
+310.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,
+311.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,decreased body weight
+312.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,chill
+313.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,diarrhea
+314.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,pleuritic pain
+315.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,patient non compliance
+316.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,tachypnea
+317.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,productive cough
+318.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,muscle hypotonia^hypotonic
+319.0,acquired immuno-deficiency syndrome^HIV^hiv infections,350.0,feeling suicidal
+320.0,cellulitis,341.0,erythema
+321.0,cellulitis,341.0,pain
+322.0,cellulitis,341.0,swelling
+323.0,cellulitis,341.0,redness
+324.0,cellulitis,341.0,fever
+325.0,cellulitis,341.0,abscess bacterial
+326.0,cellulitis,341.0,patient non compliance
+327.0,cellulitis,341.0,hypesthesia
+328.0,cellulitis,341.0,hyperacusis
+329.0,cellulitis,341.0,pruritus
+330.0,cellulitis,341.0,pain chest
+331.0,cellulitis,341.0,scratch marks
+332.0,cellulitis,341.0,chill
+333.0,cellulitis,341.0,sore to touch
+334.0,gastroesophageal reflux disease,325.0,pain
+335.0,gastroesophageal reflux disease,325.0,pain chest
+336.0,gastroesophageal reflux disease,325.0,burning sensation
+337.0,gastroesophageal reflux disease,325.0,hyponatremia
+338.0,gastroesophageal reflux disease,325.0,satiety early
+339.0,gastroesophageal reflux disease,325.0,throbbing sensation quality
+340.0,gastroesophageal reflux disease,325.0,chest tightness
+341.0,gastroesophageal reflux disease,325.0,sensory discomfort
+342.0,gastroesophageal reflux disease,325.0,presence of q wave
+343.0,gastroesophageal reflux disease,325.0,nausea
+344.0,gastroesophageal reflux disease,325.0,general discomfort
+345.0,gastroesophageal reflux disease,325.0,constipation
+346.0,gastroesophageal reflux disease,325.0,palpitation
+347.0,gastroesophageal reflux disease,325.0,pain abdominal
+348.0,gastroesophageal reflux disease,325.0,heartburn
+349.0,gastroesophageal reflux disease,325.0,sweat^sweating increased
+350.0,gastroesophageal reflux disease,325.0,asthenia
+351.0,septicemia^systemic infection^sepsis (invertebrate),311.0,fever
+352.0,septicemia^systemic infection^sepsis (invertebrate),311.0,distress respiratory
+353.0,septicemia^systemic infection^sepsis (invertebrate),311.0,hypotension
+354.0,septicemia^systemic infection^sepsis (invertebrate),311.0,tachypnea
+355.0,septicemia^systemic infection^sepsis (invertebrate),311.0,chill
+356.0,septicemia^systemic infection^sepsis (invertebrate),311.0,lethargy
+357.0,septicemia^systemic infection^sepsis (invertebrate),311.0,bradycardia
+358.0,septicemia^systemic infection^sepsis (invertebrate),311.0,breech presentation
+359.0,septicemia^systemic infection^sepsis (invertebrate),311.0,cyanosis
+360.0,septicemia^systemic infection^sepsis (invertebrate),311.0,spontaneous rupture of membranes
+361.0,septicemia^systemic infection^sepsis (invertebrate),311.0,haemorrhage
+362.0,septicemia^systemic infection^sepsis (invertebrate),311.0,unresponsiveness
+363.0,septicemia^systemic infection^sepsis (invertebrate),311.0,rale
+364.0,septicemia^systemic infection^sepsis (invertebrate),311.0,apyrexial
+365.0,deep vein thrombosis,310.0,swelling
+366.0,deep vein thrombosis,310.0,pain
+367.0,deep vein thrombosis,310.0,ecchymosis
+368.0,deep vein thrombosis,310.0,shortness of breath
+369.0,deep vein thrombosis,310.0,pain in lower limb
+370.0,deep vein thrombosis,310.0,cardiomegaly
+371.0,deep vein thrombosis,310.0,rale
+372.0,deep vein thrombosis,310.0,erythema
+373.0,deep vein thrombosis,310.0,hypotension
+374.0,deep vein thrombosis,310.0,clonus
+375.0,deep vein thrombosis,310.0,non-productive cough
+376.0,deep vein thrombosis,310.0,redness
+377.0,dehydration,297.0,fever
+378.0,dehydration,297.0,diarrhea
+379.0,dehydration,297.0,vomiting
+380.0,dehydration,297.0,hypotension
+381.0,dehydration,297.0,nausea
+382.0,dehydration,297.0,lightheadedness
+383.0,dehydration,297.0,unwell
+384.0,dehydration,297.0,mental status changes
+385.0,dehydration,297.0,anorexia
+386.0,dehydration,297.0,asthenia
+387.0,dehydration,297.0,sensory discomfort
+388.0,dehydration,297.0,syncope
+389.0,dehydration,297.0,lethargy
+390.0,dehydration,297.0,dizziness
+391.0,dehydration,297.0,syncope^blackout^history of - blackout
+392.0,neoplasm,297.0,mass of body structure
+393.0,neoplasm,297.0,lesion
+394.0,neoplasm,297.0,pain chest
+395.0,neoplasm,297.0,hematuria
+396.0,neoplasm,297.0,tumor cell invasion
+397.0,neoplasm,297.0,pain
+398.0,neoplasm,297.0,anosmia
+399.0,neoplasm,297.0,thicken
+400.0,neoplasm,297.0,metastatic lesion
+401.0,neoplasm,297.0,food intolerance
+402.0,neoplasm,297.0,decreased body weight
+403.0,neoplasm,297.0,night sweat
+404.0,neoplasm,297.0,hemianopsia homonymous
+405.0,neoplasm,297.0,satiety early
+406.0,neoplasm,297.0,pain abdominal
+407.0,neoplasm,297.0,headache
+408.0,embolism pulmonary,294.0,shortness of breath
+409.0,embolism pulmonary,294.0,hypoxemia
+410.0,embolism pulmonary,294.0,tachypnea
+411.0,embolism pulmonary,294.0,hematocrit decreased
+412.0,embolism pulmonary,294.0,pain chest
+413.0,embolism pulmonary,294.0,dyspnea
+414.0,embolism pulmonary,294.0,pleuritic pain
+415.0,embolism pulmonary,294.0,neck stiffness
+416.0,embolism pulmonary,294.0,yellow sputum
+417.0,embolism pulmonary,294.0,productive cough
+418.0,embolism pulmonary,294.0,cicatrisation
+419.0,embolism pulmonary,294.0,unresponsiveness
+420.0,embolism pulmonary,294.0,distress respiratory
+421.0,embolism pulmonary,294.0,wheezing
+422.0,embolism pulmonary,294.0,apyrexial
+423.0,embolism pulmonary,294.0,non-productive cough
+424.0,epilepsy,290.0,seizure
+425.0,epilepsy,290.0,hypometabolism
+426.0,epilepsy,290.0,aura
+427.0,epilepsy,290.0,muscle twitch
+428.0,epilepsy,290.0,drowsiness
+429.0,epilepsy,290.0,tremor
+430.0,epilepsy,290.0,unresponsiveness
+431.0,epilepsy,290.0,hemiplegia
+432.0,epilepsy,290.0,myoclonus
+433.0,epilepsy,290.0,gurgle
+434.0,epilepsy,290.0,sleepy
+435.0,epilepsy,290.0,lethargy
+436.0,epilepsy,290.0,wheelchair bound
+437.0,cardiomyopathy,283.0,shortness of breath
+438.0,cardiomyopathy,283.0,orthopnea
+439.0,cardiomyopathy,283.0,hypokinesia
+440.0,cardiomyopathy,283.0,jugular venous distention
+441.0,cardiomyopathy,283.0,palpitation
+442.0,cardiomyopathy,283.0,pain chest
+443.0,cardiomyopathy,283.0,syncope
+444.0,cardiomyopathy,283.0,yellow sputum
+445.0,cardiomyopathy,283.0,rale
+446.0,cardiomyopathy,283.0,dyspnea
+447.0,cardiomyopathy,283.0,dyspnea on exertion
+448.0,cardiomyopathy,283.0,left atrial hypertrophy
+449.0,cardiomyopathy,283.0,fatigue
+450.0,cardiomyopathy,283.0,weight gain
+451.0,cardiomyopathy,283.0,patient non compliance
+452.0,chronic kidney failure,280.0,vomiting
+453.0,chronic kidney failure,280.0,orthopnea
+454.0,chronic kidney failure,280.0,hyperkalemia
+455.0,chronic kidney failure,280.0,oliguria
+456.0,chronic kidney failure,280.0,jugular venous distention
+457.0,chronic kidney failure,280.0,nausea
+458.0,chronic kidney failure,280.0,shortness of breath
+459.0,chronic kidney failure,280.0,mental status changes
+460.0,chronic kidney failure,280.0,diarrhea
+461.0,chronic kidney failure,280.0,asthenia
+462.0,chronic kidney failure,280.0,chest tightness
+463.0,chronic kidney failure,280.0,malaise
+464.0,chronic kidney failure,280.0,chill
+465.0,chronic kidney failure,280.0,rale
+466.0,chronic kidney failure,280.0,fever
+467.0,chronic kidney failure,280.0,pleuritic pain
+468.0,chronic kidney failure,280.0,apyrexial
+469.0,chronic kidney failure,280.0,guaiac positive
+470.0,chronic kidney failure,280.0,swelling
+471.0,chronic kidney failure,280.0,catatonia
+472.0,chronic kidney failure,280.0,unresponsiveness
+473.0,chronic kidney failure,280.0,yellow sputum
+474.0,carcinoma,269.0,mass of body structure
+475.0,carcinoma,269.0,pain
+476.0,carcinoma,269.0,lesion
+477.0,carcinoma,269.0,tumor cell invasion
+478.0,carcinoma,269.0,thicken
+479.0,carcinoma,269.0,decreased body weight
+480.0,carcinoma,269.0,hoarseness
+481.0,carcinoma,269.0,general discomfort
+482.0,carcinoma,269.0,metastatic lesion
+483.0,carcinoma,269.0,non-productive cough
+484.0,carcinoma,269.0,constipation
+485.0,carcinoma,269.0,unhappy
+486.0,carcinoma,269.0,paresthesia
+487.0,carcinoma,269.0,gravida 0
+488.0,carcinoma,269.0,diarrhea
+489.0,carcinoma,269.0,sore to touch
+490.0,carcinoma,269.0,heartburn
+491.0,carcinoma,269.0,nausea
+492.0,carcinoma,269.0,lung nodule
+493.0,hepatitis C,269.0,ascites
+494.0,hepatitis C,269.0,distended abdomen
+495.0,hepatitis C,269.0,feeling suicidal
+496.0,hepatitis C,269.0,cough
+497.0,hepatitis C,269.0,ache
+498.0,hepatitis C,269.0,macerated skin
+499.0,hepatitis C,269.0,heavy feeling
+500.0,hepatitis C,269.0,hallucinations auditory
+501.0,hepatitis C,269.0,chill
+502.0,hepatitis C,269.0,asterixis
+503.0,hepatitis C,269.0,patient non compliance
+504.0,peripheral vascular disease,268.0,shortness of breath
+505.0,peripheral vascular disease,268.0,rest pain
+506.0,peripheral vascular disease,268.0,angina pectoris
+507.0,peripheral vascular disease,268.0,unresponsiveness
+508.0,peripheral vascular disease,268.0,hyperkalemia
+509.0,peripheral vascular disease,268.0,sinus rhythm
+510.0,peripheral vascular disease,268.0,labored breathing
+511.0,peripheral vascular disease,268.0,dyspnea
+512.0,peripheral vascular disease,268.0,sore to touch
+513.0,peripheral vascular disease,268.0,anorexia
+514.0,peripheral vascular disease,268.0,sleepy
+515.0,psychotic disorder,267.0,suicidal
+516.0,psychotic disorder,267.0,hallucinations auditory
+517.0,psychotic disorder,267.0,feeling suicidal
+518.0,psychotic disorder,267.0,hallucinations visual
+519.0,psychotic disorder,267.0,motor retardation
+520.0,psychotic disorder,267.0,blackout
+521.0,psychotic disorder,267.0,verbal auditory hallucinations
+522.0,psychotic disorder,267.0,feeling hopeless
+523.0,psychotic disorder,267.0,irritable mood
+524.0,psychotic disorder,267.0,agitation
+525.0,psychotic disorder,267.0,tremor
+526.0,psychotic disorder,267.0,catatonia
+527.0,psychotic disorder,267.0,weepiness
+528.0,psychotic disorder,267.0,homelessness
+529.0,psychotic disorder,267.0,sleeplessness
+530.0,psychotic disorder,267.0,withdraw
+531.0,psychotic disorder,267.0,energy increased
+532.0,psychotic disorder,267.0,intoxication
+533.0,psychotic disorder,267.0,worry
+534.0,psychotic disorder,267.0,behavior hyperactive
+535.0,psychotic disorder,267.0,patient non compliance
+536.0,psychotic disorder,267.0,mood depressed
+537.0,psychotic disorder,267.0,terrify
+538.0,psychotic disorder,267.0,nightmare
+539.0,psychotic disorder,267.0,consciousness clear
+540.0,hyperlipidemia,247.0,pain chest
+541.0,hyperlipidemia,247.0,angina pectoris
+542.0,hyperlipidemia,247.0,palpitation
+543.0,hyperlipidemia,247.0,presence of q wave
+544.0,hyperlipidemia,247.0,photopsia
+545.0,hyperlipidemia,247.0,sweat^sweating increased
+546.0,hyperlipidemia,247.0,chest discomfort
+547.0,hyperlipidemia,247.0,shortness of breath
+548.0,hyperlipidemia,247.0,giddy mood
+549.0,hyperlipidemia,247.0,hypokinesia
+550.0,hyperlipidemia,247.0,hemiplegia
+551.0,hyperlipidemia,247.0,dizziness
+552.0,bipolar disorder,241.0,feeling suicidal
+553.0,bipolar disorder,241.0,energy increased
+554.0,bipolar disorder,241.0,suicidal
+555.0,bipolar disorder,241.0,irritable mood
+556.0,bipolar disorder,241.0,agitation
+557.0,bipolar disorder,241.0,has religious belief
+558.0,bipolar disorder,241.0,disturbed family
+559.0,bipolar disorder,241.0,hallucinations auditory
+560.0,bipolar disorder,241.0,verbal auditory hallucinations
+561.0,bipolar disorder,241.0,weepiness
+562.0,bipolar disorder,241.0,behavior hyperactive
+563.0,bipolar disorder,241.0,catatonia
+564.0,bipolar disorder,241.0,feeling hopeless
+565.0,bipolar disorder,241.0,worry
+566.0,bipolar disorder,241.0,sleeplessness
+567.0,bipolar disorder,241.0,hypersomnia
+568.0,bipolar disorder,241.0,difficulty
+569.0,bipolar disorder,241.0,hallucinations visual
+570.0,bipolar disorder,241.0,hyperhidrosis disorder
+571.0,bipolar disorder,241.0,mydriasis
+572.0,bipolar disorder,241.0,extrapyramidal sign
+573.0,bipolar disorder,241.0,loose associations
+574.0,bipolar disorder,241.0,intoxication
+575.0,bipolar disorder,241.0,motor retardation
+576.0,bipolar disorder,241.0,homelessness
+577.0,bipolar disorder,241.0,blackout
+578.0,bipolar disorder,241.0,tremor
+579.0,bipolar disorder,241.0,exhaustion
+580.0,obesity,228.0,pain
+581.0,obesity,228.0,catatonia
+582.0,obesity,228.0,snore
+583.0,obesity,228.0,pain chest
+584.0,obesity,228.0,r wave feature
+585.0,obesity,228.0,has religious belief
+586.0,obesity,228.0,shortness of breath
+587.0,obesity,228.0,fatigue^tired
+588.0,obesity,228.0,overweight
+589.0,obesity,228.0,systolic murmur
+590.0,obesity,228.0,mood depressed
+591.0,obesity,228.0,ecchymosis
+592.0,ischemia,226.0,drowsiness^sleepy
+593.0,ischemia,226.0,pain chest
+594.0,ischemia,226.0,angina pectoris
+595.0,ischemia,226.0,pressure chest
+596.0,ischemia,226.0,chest discomfort
+597.0,ischemia,226.0,shortness of breath
+598.0,ischemia,226.0,dyspnea
+599.0,ischemia,226.0,sinus rhythm
+600.0,ischemia,226.0,bradycardia
+601.0,ischemia,226.0,sweat^sweating increased
+602.0,ischemia,226.0,rale
+603.0,ischemia,226.0,asymptomatic
+604.0,ischemia,226.0,anorexia
+605.0,cirrhosis,218.0,ascites
+606.0,cirrhosis,218.0,fall
+607.0,cirrhosis,218.0,splenomegaly
+608.0,cirrhosis,218.0,pruritus
+609.0,cirrhosis,218.0,pain abdominal
+610.0,cirrhosis,218.0,tumor cell invasion
+611.0,cirrhosis,218.0,distended abdomen
+612.0,cirrhosis,218.0,lesion
+613.0,cirrhosis,218.0,hemodynamically stable
+614.0,cirrhosis,218.0,guaiac positive
+615.0,cirrhosis,218.0,sore to touch
+616.0,cirrhosis,218.0,bleeding of vagina
+617.0,exanthema,208.0,fever
+618.0,exanthema,208.0,pruritus
+619.0,exanthema,208.0,macule
+620.0,exanthema,208.0,lesion
+621.0,exanthema,208.0,redness
+622.0,exanthema,208.0,headache
+623.0,exanthema,208.0,apyrexial
+624.0,exanthema,208.0,arthralgia
+625.0,exanthema,208.0,swelling
+626.0,exanthema,208.0,erythema
+627.0,exanthema,208.0,photophobia
+628.0,exanthema,208.0,chill
+629.0,exanthema,208.0,scratch marks
+630.0,exanthema,208.0,pain
+631.0,exanthema,208.0,painful swallowing
+632.0,benign prostatic hypertrophy,192.0,mental status changes
+633.0,benign prostatic hypertrophy,192.0,cachexia
+634.0,benign prostatic hypertrophy,192.0,blackout
+635.0,benign prostatic hypertrophy,192.0,orthostasis
+636.0,benign prostatic hypertrophy,192.0,orthopnea
+637.0,benign prostatic hypertrophy,192.0,night sweat
+638.0,benign prostatic hypertrophy,192.0,distress respiratory
+639.0,benign prostatic hypertrophy,192.0,anorexia
+640.0,benign prostatic hypertrophy,192.0,dysarthria
+641.0,kidney failure acute,186.0,hyperkalemia
+642.0,kidney failure acute,186.0,hypotension
+643.0,kidney failure acute,186.0,hypocalcemia result
+644.0,kidney failure acute,186.0,oliguria
+645.0,kidney failure acute,186.0,hemodynamically stable
+646.0,kidney failure acute,186.0,asthenia
+647.0,kidney failure acute,186.0,"hypothermia, natural"
+648.0,kidney failure acute,186.0,diarrhea
+649.0,kidney failure acute,186.0,haemorrhage
+650.0,kidney failure acute,186.0,unresponsiveness
+651.0,mitral valve insufficiency,186.0,shortness of breath
+652.0,mitral valve insufficiency,186.0,dyspnea on exertion
+653.0,mitral valve insufficiency,186.0,asymptomatic
+654.0,mitral valve insufficiency,186.0,hypokinesia
+655.0,mitral valve insufficiency,186.0,dyspnea
+656.0,mitral valve insufficiency,186.0,syncope
+657.0,mitral valve insufficiency,186.0,thicken
+658.0,mitral valve insufficiency,186.0,left atrial hypertrophy
+659.0,mitral valve insufficiency,186.0,palpitation
+660.0,mitral valve insufficiency,186.0,fatigue
+661.0,mitral valve insufficiency,186.0,vomiting
+662.0,mitral valve insufficiency,186.0,pain
+663.0,mitral valve insufficiency,186.0,cardiomegaly
+664.0,mitral valve insufficiency,186.0,chest discomfort
+665.0,arthritis,179.0,pain
+666.0,arthritis,179.0,hemodynamically stable
+667.0,arthritis,179.0,sleeplessness
+668.0,arthritis,179.0,asthenia
+669.0,arthritis,179.0,syncope
+670.0,arthritis,179.0,swelling
+671.0,arthritis,179.0,atypia
+672.0,arthritis,179.0,general unsteadiness
+673.0,arthritis,179.0,shortness of breath
+674.0,arthritis,179.0,distended abdomen
+675.0,bronchitis,172.0,cough
+676.0,bronchitis,172.0,wheezing
+677.0,bronchitis,172.0,shortness of breath
+678.0,bronchitis,172.0,chest tightness
+679.0,bronchitis,172.0,fever
+680.0,bronchitis,172.0,throat sore
+681.0,bronchitis,172.0,productive cough
+682.0,bronchitis,172.0,hepatosplenomegaly
+683.0,bronchitis,172.0,night sweat
+684.0,bronchitis,172.0,haemoptysis
+685.0,bronchitis,172.0,labored breathing
+686.0,bronchitis,172.0,snuffle
+687.0,bronchitis,172.0,hacking cough
+688.0,bronchitis,172.0,dyspnea
+689.0,bronchitis,172.0,chill
+690.0,bronchitis,172.0,stridor
+691.0,bronchitis,172.0,decreased body weight
+692.0,hemiparesis,171.0,dysarthria
+693.0,hemiparesis,171.0,paresis
+694.0,hemiparesis,171.0,asthenia
+695.0,hemiparesis,171.0,aphagia
+696.0,hemiparesis,171.0,seizure
+697.0,hemiparesis,171.0,speech slurred
+698.0,hemiparesis,171.0,focal seizures
+699.0,hemiparesis,171.0,hemiplegia
+700.0,hemiparesis,171.0,abnormal sensation
+701.0,hemiparesis,171.0,unresponsiveness
+702.0,hemiparesis,171.0,stupor
+703.0,hemiparesis,171.0,drowsiness^sleepy
+704.0,hemiparesis,171.0,fremitus
+705.0,hemiparesis,171.0,Stahli's line
+706.0,hemiparesis,171.0,stinging sensation
+707.0,hemiparesis,171.0,paralyse
+708.0,hemiparesis,171.0,clonus
+709.0,hemiparesis,171.0,facial paresis
+710.0,osteoporosis,169.0,prostatism
+711.0,osteoporosis,169.0,fall
+712.0,osteoporosis,169.0,hirsutism
+713.0,osteoporosis,169.0,sniffle
+714.0,osteoporosis,169.0,distended abdomen
+715.0,osteoporosis,169.0,vertigo
+716.0,osteoporosis,169.0,numbness of hand
+717.0,osteoporosis,169.0,bradykinesia
+718.0,osteoporosis,169.0,pain
+719.0,osteoporosis,169.0,syncope
+720.0,osteoporosis,169.0,out of breath
+721.0,osteoporosis,169.0,apyrexial
+722.0,osteoporosis,169.0,urge incontinence
+723.0,osteoporosis,169.0,lightheadedness
+724.0,transient ischemic attack,168.0,speech slurred
+725.0,transient ischemic attack,168.0,dysarthria
+726.0,transient ischemic attack,168.0,facial paresis
+727.0,transient ischemic attack,168.0,asthenia
+728.0,transient ischemic attack,168.0,neck stiffness
+729.0,transient ischemic attack,168.0,vertigo
+730.0,transient ischemic attack,168.0,numbness
+731.0,transient ischemic attack,168.0,lightheadedness
+732.0,transient ischemic attack,168.0,extrapyramidal sign
+733.0,transient ischemic attack,168.0,Stahli's line
+734.0,transient ischemic attack,168.0,vision blurred
+735.0,transient ischemic attack,168.0,headache
+736.0,transient ischemic attack,168.0,room spinning
+737.0,transient ischemic attack,168.0,syncope
+738.0,transient ischemic attack,168.0,difficulty
+739.0,transient ischemic attack,168.0,rambling speech
+740.0,transient ischemic attack,168.0,clumsiness
+741.0,adenocarcinoma,166.0,mass of body structure
+742.0,adenocarcinoma,166.0,lesion
+743.0,adenocarcinoma,166.0,decreased body weight
+744.0,adenocarcinoma,166.0,constipation
+745.0,adenocarcinoma,166.0,fremitus
+746.0,adenocarcinoma,166.0,decreased stool caliber
+747.0,adenocarcinoma,166.0,satiety early
+748.0,adenocarcinoma,166.0,hematochezia
+749.0,adenocarcinoma,166.0,egophony
+750.0,adenocarcinoma,166.0,pain
+751.0,adenocarcinoma,166.0,cicatrisation^scar tissue
+752.0,adenocarcinoma,166.0,pain abdominal
+753.0,paranoia,165.0,hallucinations auditory
+754.0,paranoia,165.0,hallucinations visual
+755.0,paranoia,165.0,agitation
+756.0,paranoia,165.0,irritable mood
+757.0,paranoia,165.0,verbal auditory hallucinations
+758.0,paranoia,165.0,feeling suicidal
+759.0,paranoia,165.0,suicidal
+760.0,paranoia,165.0,terrify
+761.0,paranoia,165.0,neologism
+762.0,paranoia,165.0,homelessness
+763.0,paranoia,165.0,energy increased
+764.0,paranoia,165.0,mood depressed
+765.0,paranoia,165.0,decompensation
+766.0,paranoia,165.0,cicatrisation^scar tissue
+767.0,paranoia,165.0,blackout
+768.0,paranoia,165.0,loose associations
+769.0,pancreatitis,165.0,vomiting
+770.0,pancreatitis,165.0,pain abdominal
+771.0,pancreatitis,165.0,nausea
+772.0,pancreatitis,165.0,pain
+773.0,pancreatitis,165.0,diarrhea
+774.0,pancreatitis,165.0,stool color yellow
+775.0,pancreatitis,165.0,rigor - temperature-associated observation
+776.0,pancreatitis,165.0,apyrexial
+777.0,pancreatitis,165.0,sore to touch
+778.0,incontinence,165.0,paraparesis
+779.0,incontinence,165.0,seizure
+780.0,incontinence,165.0,asthenia
+781.0,incontinence,165.0,urge incontinence
+782.0,incontinence,165.0,unconscious state
+783.0,incontinence,165.0,aura
+784.0,incontinence,165.0,moody
+785.0,incontinence,165.0,fear of falling
+786.0,incontinence,165.0,tremor
+787.0,incontinence,165.0,spasm
+788.0,incontinence,165.0,unhappy
+789.0,incontinence,165.0,syncope
+790.0,incontinence,165.0,fall
+791.0,incontinence,165.0,stiffness
+792.0,incontinence,165.0,unresponsiveness
+793.0,paroxysmal dyspnea,165.0,orthopnea
+794.0,paroxysmal dyspnea,165.0,shortness of breath
+795.0,paroxysmal dyspnea,165.0,dyspnea on exertion
+796.0,paroxysmal dyspnea,165.0,jugular venous distention
+797.0,paroxysmal dyspnea,165.0,rale
+798.0,paroxysmal dyspnea,165.0,pain chest
+799.0,paroxysmal dyspnea,165.0,palpitation
+800.0,paroxysmal dyspnea,165.0,sweat^sweating increased
+801.0,paroxysmal dyspnea,165.0,weight gain
+802.0,paroxysmal dyspnea,165.0,cough
+803.0,paroxysmal dyspnea,165.0,dyspnea
+804.0,hernia,164.0,pain abdominal
+805.0,hernia,164.0,pain
+806.0,hernia,164.0,hyperventilation
+807.0,hernia,164.0,excruciating pain
+808.0,hernia,164.0,gag
+809.0,hernia,164.0,nausea
+810.0,hernia,164.0,posturing
+811.0,hernia,164.0,hemiplegia
+812.0,hernia,164.0,sore to touch
+813.0,hernia,164.0,haemorrhage
+814.0,hernia,164.0,apyrexial
+815.0,hernia,164.0,food intolerance
+816.0,hernia,164.0,pulse absent
+817.0,hernia,164.0,asthenia
+818.0,hernia,164.0,mass of body structure
+819.0,hernia,164.0,thicken
+820.0,malignant neoplasm of prostate^carcinoma prostate,163.0,hematuria
+821.0,malignant neoplasm of prostate^carcinoma prostate,163.0,dysesthesia
+822.0,malignant neoplasm of prostate^carcinoma prostate,163.0,asthenia
+823.0,malignant neoplasm of prostate^carcinoma prostate,163.0,polymyalgia
+824.0,malignant neoplasm of prostate^carcinoma prostate,163.0,passed stones
+825.0,malignant neoplasm of prostate^carcinoma prostate,163.0,pleuritic pain
+826.0,malignant neoplasm of prostate^carcinoma prostate,163.0,guaiac positive
+827.0,malignant neoplasm of prostate^carcinoma prostate,163.0,rale
+828.0,malignant neoplasm of prostate^carcinoma prostate,163.0,breath sounds decreased
+829.0,malignant neoplasm of prostate^carcinoma prostate,163.0,urge incontinence
+830.0,malignant neoplasm of prostate^carcinoma prostate,163.0,dysuria
+831.0,malignant neoplasm of prostate^carcinoma prostate,163.0,diarrhea
+832.0,malignant neoplasm of prostate^carcinoma prostate,163.0,vertigo
+833.0,malignant neoplasm of prostate^carcinoma prostate,163.0,qt interval prolonged
+834.0,malignant neoplasm of prostate^carcinoma prostate,163.0,ataxia
+835.0,malignant neoplasm of prostate^carcinoma prostate,163.0,paresis
+836.0,malignant neoplasm of prostate^carcinoma prostate,163.0,hemianopsia homonymous
+837.0,malignant neoplasm of prostate^carcinoma prostate,163.0,tumor cell invasion
+838.0,malignant neoplasm of prostate^carcinoma prostate,163.0,hemodynamically stable
+839.0,malignant neoplasm of prostate^carcinoma prostate,163.0,mass of body structure
+840.0,malignant neoplasm of prostate^carcinoma prostate,163.0,rhonchus
+841.0,malignant neoplasm of prostate^carcinoma prostate,163.0,orthostasis
+842.0,malignant neoplasm of prostate^carcinoma prostate,163.0,decreased body weight
+843.0,edema pulmonary,161.0,urgency of micturition
+844.0,edema pulmonary,161.0,shortness of breath
+845.0,edema pulmonary,161.0,rale
+846.0,edema pulmonary,161.0,tachypnea
+847.0,edema pulmonary,161.0,orthopnea
+848.0,edema pulmonary,161.0,Heberden's node
+849.0,edema pulmonary,161.0,jugular venous distention
+850.0,edema pulmonary,161.0,dyspnea
+851.0,edema pulmonary,161.0,sweat^sweating increased
+852.0,edema pulmonary,161.0,patient non compliance
+853.0,edema pulmonary,161.0,chest discomfort
+854.0,edema pulmonary,161.0,hyperkalemia
+855.0,edema pulmonary,161.0,sinus rhythm
+856.0,edema pulmonary,161.0,pain chest
+857.0,edema pulmonary,161.0,hypotension
+858.0,edema pulmonary,161.0,wheezing
+859.0,lymphatic diseases,160.0,pain
+860.0,lymphatic diseases,160.0,mass of body structure
+861.0,lymphatic diseases,160.0,night sweat
+862.0,lymphatic diseases,160.0,splenomegaly
+863.0,lymphatic diseases,160.0,lesion
+864.0,lymphatic diseases,160.0,chill
+865.0,lymphatic diseases,160.0,decreased body weight
+866.0,lymphatic diseases,160.0,swelling
+867.0,lymphatic diseases,160.0,fever
+868.0,lymphatic diseases,160.0,hyperacusis
+869.0,lymphatic diseases,160.0,fremitus
+870.0,lymphatic diseases,160.0,non-productive cough
+871.0,lymphatic diseases,160.0,egophony
+872.0,lymphatic diseases,160.0,redness
+873.0,lymphatic diseases,160.0,hepatomegaly
+874.0,lymphatic diseases,160.0,fatigue
+875.0,stenosis aortic valve,158.0,dyspnea on exertion
+876.0,stenosis aortic valve,158.0,syncope
+877.0,stenosis aortic valve,158.0,chest discomfort
+878.0,stenosis aortic valve,158.0,systolic murmur
+879.0,stenosis aortic valve,158.0,sciatica
+880.0,stenosis aortic valve,158.0,angina pectoris
+881.0,stenosis aortic valve,158.0,pain chest
+882.0,stenosis aortic valve,158.0,frothy sputum
+883.0,stenosis aortic valve,158.0,bradycardia
+884.0,stenosis aortic valve,158.0,shortness of breath
+885.0,stenosis aortic valve,158.0,pain
+886.0,malignant neoplasm of breast^carcinoma breast,152.0,mass in breast
+887.0,malignant neoplasm of breast^carcinoma breast,152.0,mass of body structure
+888.0,malignant neoplasm of breast^carcinoma breast,152.0,paresthesia
+889.0,malignant neoplasm of breast^carcinoma breast,152.0,retropulsion
+890.0,malignant neoplasm of breast^carcinoma breast,152.0,erythema
+891.0,malignant neoplasm of breast^carcinoma breast,152.0,difficulty
+892.0,malignant neoplasm of breast^carcinoma breast,152.0,lesion
+893.0,malignant neoplasm of breast^carcinoma breast,152.0,estrogen use
+894.0,malignant neoplasm of breast^carcinoma breast,152.0,burning sensation
+895.0,malignant neoplasm of breast^carcinoma breast,152.0,dyspnea
+896.0,malignant neoplasm of breast^carcinoma breast,152.0,swelling
+897.0,malignant neoplasm of breast^carcinoma breast,152.0,formication
+898.0,schizophrenia,147.0,hallucinations auditory
+899.0,schizophrenia,147.0,hypersomnolence
+900.0,schizophrenia,147.0,irritable mood
+901.0,schizophrenia,147.0,verbal auditory hallucinations
+902.0,schizophrenia,147.0,patient non compliance
+903.0,schizophrenia,147.0,agitation
+904.0,schizophrenia,147.0,suicidal
+905.0,schizophrenia,147.0,worry
+906.0,schizophrenia,147.0,hallucinations visual
+907.0,schizophrenia,147.0,underweight^underweight
+908.0,schizophrenia,147.0,homelessness
+909.0,diverticulitis,145.0,pain abdominal
+910.0,diverticulitis,145.0,abscess bacterial
+911.0,diverticulitis,145.0,dullness
+912.0,diverticulitis,145.0,red blotches
+913.0,diverticulitis,145.0,diarrhea
+914.0,diverticulitis,145.0,sore to touch
+915.0,diverticulitis,145.0,dysuria
+916.0,diverticulitis,145.0,pain
+917.0,diverticulitis,145.0,vomiting
+918.0,diverticulitis,145.0,sinus rhythm
+919.0,diverticulitis,145.0,colic abdominal
+920.0,diverticulitis,145.0,apyrexial
+921.0,diverticulitis,145.0,abdominal tenderness
+922.0,diverticulitis,145.0,fever
+923.0,diverticulitis,145.0,unsteady gait
+924.0,diverticulitis,145.0,thicken
+925.0,diverticulitis,145.0,urgency of micturition
+926.0,diverticulitis,145.0,anorexia
+927.0,diverticulitis,145.0,monoclonal
+928.0,diverticulitis,145.0,constipation
+929.0,overload fluid,144.0,rale
+930.0,overload fluid,144.0,jugular venous distention
+931.0,overload fluid,144.0,hyperkalemia
+932.0,overload fluid,144.0,orthopnea
+933.0,overload fluid,144.0,shortness of breath
+934.0,overload fluid,144.0,drowsiness^sleepy
+935.0,overload fluid,144.0,weight gain
+936.0,overload fluid,144.0,hypokalemia
+937.0,overload fluid,144.0,hypotension
+938.0,overload fluid,144.0,swelling
+939.0,overload fluid,144.0,distended abdomen
+940.0,ulcer peptic,143.0,pain abdominal
+941.0,ulcer peptic,143.0,paraparesis
+942.0,ulcer peptic,143.0,nausea
+943.0,ulcer peptic,143.0,vomiting
+944.0,ulcer peptic,143.0,polymyalgia
+945.0,ulcer peptic,143.0,out of breath
+946.0,ulcer peptic,143.0,pain chest
+947.0,ulcer peptic,143.0,hemiplegia
+948.0,ulcer peptic,143.0,gurgle
+949.0,ulcer peptic,143.0,hunger
+950.0,ulcer peptic,143.0,apyrexial
+951.0,ulcer peptic,143.0,nervousness
+952.0,osteomyelitis,142.0,pain
+953.0,osteomyelitis,142.0,redness
+954.0,osteomyelitis,142.0,prostate tender
+955.0,osteomyelitis,142.0,fever
+956.0,osteomyelitis,142.0,difficulty passing urine
+957.0,osteomyelitis,142.0,sore to touch
+958.0,osteomyelitis,142.0,swelling
+959.0,osteomyelitis,142.0,apyrexial
+960.0,osteomyelitis,142.0,erythema
+961.0,osteomyelitis,142.0,abscess bacterial
+962.0,osteomyelitis,142.0,pain foot
+963.0,osteomyelitis,142.0,urinary hesitation
+964.0,gastritis,140.0,heme positive
+965.0,gastritis,140.0,pain abdominal
+966.0,gastritis,140.0,vomiting
+967.0,gastritis,140.0,disequilibrium
+968.0,gastritis,140.0,nausea
+969.0,gastritis,140.0,intoxication
+970.0,gastritis,140.0,haemorrhage
+971.0,gastritis,140.0,guaiac positive
+972.0,gastritis,140.0,pain
+973.0,gastritis,140.0,decreased body weight
+974.0,gastritis,140.0,sore to touch
+975.0,gastritis,140.0,dizziness
+976.0,bacteremia,142.0,fever
+977.0,bacteremia,142.0,chill
+978.0,bacteremia,142.0,flushing
+979.0,bacteremia,142.0,unresponsiveness
+980.0,bacteremia,142.0,indifferent mood
+981.0,bacteremia,142.0,urinoma
+982.0,bacteremia,142.0,vomiting
+983.0,bacteremia,142.0,distended abdomen
+984.0,bacteremia,142.0,hypoalbuminemia
+985.0,bacteremia,142.0,pustule
+986.0,bacteremia,142.0,prostatism
+987.0,bacteremia,142.0,diarrhea
+988.0,bacteremia,142.0,abdominal tenderness
+989.0,bacteremia,142.0,pleuritic pain
+990.0,bacteremia,142.0,decreased translucency
+991.0,bacteremia,142.0,pallor
+992.0,failure kidney,140.0,orthopnea
+993.0,failure kidney,140.0,oliguria
+994.0,failure kidney,140.0,slowing of urinary stream
+995.0,failure kidney,140.0,extreme exhaustion
+996.0,failure kidney,140.0,unresponsiveness
+997.0,failure kidney,140.0,hypotension
+998.0,failure kidney,140.0,enuresis
+999.0,failure kidney,140.0,shortness of breath
+1000.0,failure kidney,140.0,haemorrhage
+1001.0,failure kidney,140.0,prostatism
+1002.0,failure kidney,140.0,no status change
+1003.0,failure kidney,140.0,bedridden^bedridden
+1004.0,failure kidney,140.0,fatigue
+1005.0,sickle cell anemia,140.0,breakthrough pain
+1006.0,sickle cell anemia,140.0,pain back
+1007.0,sickle cell anemia,140.0,pain
+1008.0,sickle cell anemia,140.0,shortness of breath
+1009.0,sickle cell anemia,140.0,snuffle
+1010.0,sickle cell anemia,140.0,pain chest
+1011.0,sickle cell anemia,140.0,pain abdominal
+1012.0,sickle cell anemia,140.0,hepatosplenomegaly
+1013.0,sickle cell anemia,140.0,green sputum
+1014.0,sickle cell anemia,140.0,apyrexial
+1015.0,sickle cell anemia,140.0,headache
+1016.0,failure heart,138.0,orthopnea
+1017.0,failure heart,138.0,fatigue
+1018.0,failure heart,138.0,dyspnea on exertion
+1019.0,failure heart,138.0,dyspnea
+1020.0,failure heart,138.0,shortness of breath
+1021.0,failure heart,138.0,pansystolic murmur
+1022.0,failure heart,138.0,jugular venous distention
+1023.0,failure heart,138.0,systolic ejection murmur
+1024.0,failure heart,138.0,hypotension
+1025.0,failure heart,138.0,angina pectoris
+1026.0,failure heart,138.0,hypokinesia
+1027.0,upper respiratory infection,135.0,cough
+1028.0,upper respiratory infection,135.0,throat sore
+1029.0,upper respiratory infection,135.0,wheezing
+1030.0,upper respiratory infection,135.0,shortness of breath
+1031.0,upper respiratory infection,135.0,labored breathing
+1032.0,upper respiratory infection,135.0,fever
+1033.0,upper respiratory infection,135.0,stuffy nose
+1034.0,upper respiratory infection,135.0,non-productive cough
+1035.0,upper respiratory infection,135.0,snuffle
+1036.0,upper respiratory infection,135.0,indifferent mood
+1037.0,upper respiratory infection,135.0,egophony
+1038.0,upper respiratory infection,135.0,barking cough
+1039.0,upper respiratory infection,135.0,polymyalgia
+1040.0,upper respiratory infection,135.0,pleuritic pain
+1041.0,upper respiratory infection,135.0,night sweat
+1042.0,upper respiratory infection,135.0,dyspnea
+1043.0,upper respiratory infection,135.0,productive cough
+1044.0,upper respiratory infection,135.0,decreased translucency
+1045.0,upper respiratory infection,135.0,rhonchus
+1046.0,upper respiratory infection,135.0,rapid shallow breathing
+1047.0,upper respiratory infection,135.0,apyrexial
+1048.0,upper respiratory infection,135.0,noisy respiration
+1049.0,upper respiratory infection,135.0,nasal discharge present
+1050.0,upper respiratory infection,135.0,emphysematous change
+1051.0,upper respiratory infection,135.0,frail
+1052.0,upper respiratory infection,135.0,cystic lesion
+1053.0,upper respiratory infection,135.0,symptom aggravating factors
+1054.0,upper respiratory infection,135.0,hemodynamically stable
+1055.0,hepatitis,133.0,ascites
+1056.0,hepatitis,133.0,spontaneous rupture of membranes
+1057.0,hepatitis,133.0,tachypnea
+1058.0,hepatitis,133.0,pain abdominal
+1059.0,hepatitis,133.0,pruritus
+1060.0,hepatitis,133.0,anorexia
+1061.0,hepatitis,133.0,transaminitis
+1062.0,hepatitis,133.0,projectile vomiting
+1063.0,hepatitis,133.0,chill
+1064.0,hepatitis,133.0,distress respiratory
+1065.0,hepatitis,133.0,fever
+1066.0,hepatitis,133.0,vomiting
+1067.0,hypertension pulmonary,128.0,shortness of breath
+1068.0,hypertension pulmonary,128.0,Stahli's line
+1069.0,hypertension pulmonary,128.0,heavy legs
+1070.0,hypertension pulmonary,128.0,breath sounds decreased
+1071.0,hypertension pulmonary,128.0,neck stiffness
+1072.0,hypertension pulmonary,128.0,dyspnea on exertion
+1073.0,hypertension pulmonary,128.0,cyanosis
+1074.0,hypertension pulmonary,128.0,hypotension
+1075.0,hypertension pulmonary,128.0,left atrial hypertrophy
+1076.0,deglutition disorder,126.0,paresthesia
+1077.0,deglutition disorder,126.0,titubation
+1078.0,deglutition disorder,126.0,dysarthria
+1079.0,deglutition disorder,126.0,painful swallowing
+1080.0,deglutition disorder,126.0,hoarseness
+1081.0,deglutition disorder,126.0,stridor
+1082.0,deglutition disorder,126.0,spasm
+1083.0,deglutition disorder,126.0,asthenia
+1084.0,deglutition disorder,126.0,dysdiadochokinesia
+1085.0,deglutition disorder,126.0,ataxia
+1086.0,deglutition disorder,126.0,achalasia
+1087.0,deglutition disorder,126.0,decreased body weight
+1088.0,deglutition disorder,126.0,stiffness
+1089.0,deglutition disorder,126.0,lesion
+1090.0,deglutition disorder,126.0,side pain
+1091.0,gout,124.0,hot flush
+1092.0,gout,124.0,pain
+1093.0,gout,124.0,redness
+1094.0,gout,124.0,swelling
+1095.0,gout,124.0,erythema
+1096.0,gout,124.0,emphysematous change
+1097.0,gout,124.0,sore to touch
+1098.0,gout,124.0,hypokinesia
+1099.0,gout,124.0,ascites
+1100.0,gout,124.0,patient non compliance
+1101.0,thrombocytopaenia,123.0,ecchymosis
+1102.0,thrombocytopaenia,123.0,monocytosis
+1103.0,thrombocytopaenia,123.0,posterior rhinorrhea
+1104.0,thrombocytopaenia,123.0,haemorrhage
+1105.0,thrombocytopaenia,123.0,tachypnea
+1106.0,thrombocytopaenia,123.0,fever
+1107.0,thrombocytopaenia,123.0,pruritus
+1108.0,thrombocytopaenia,123.0,hypotension
+1109.0,thrombocytopaenia,123.0,fatigue
+1110.0,hypoglycemia,122.0,unresponsiveness
+1111.0,hypoglycemia,122.0,"hypothermia, natural"
+1112.0,hypoglycemia,122.0,incoherent
+1113.0,hypoglycemia,122.0,qt interval prolonged
+1114.0,hypoglycemia,122.0,lameness^claudication
+1115.0,hypoglycemia,122.0,unconscious state
+1116.0,hypoglycemia,122.0,clammy skin
+1117.0,hypoglycemia,122.0,polyuria
+1118.0,hypoglycemia,122.0,distress respiratory
+1119.0,hypoglycemia,122.0,hypotension
+1120.0,pneumonia aspiration,119.0,mediastinal shift
+1121.0,pneumonia aspiration,119.0,fever
+1122.0,pneumonia aspiration,119.0,clonus
+1123.0,pneumonia aspiration,119.0,mental status changes
+1124.0,pneumonia aspiration,119.0,decreased translucency
+1125.0,pneumonia aspiration,119.0,unresponsiveness
+1126.0,pneumonia aspiration,119.0,extreme exhaustion
+1127.0,pneumonia aspiration,119.0,stupor
+1128.0,pneumonia aspiration,119.0,seizure
+1129.0,pneumonia aspiration,119.0,transaminitis
+1130.0,pneumonia aspiration,119.0,hemiplegia
+1131.0,pneumonia aspiration,119.0,cough
+1132.0,pneumonia aspiration,119.0,gurgle
+1133.0,pneumonia aspiration,119.0,pain
+1134.0,pneumonia aspiration,119.0,diarrhea
+1135.0,pneumonia aspiration,119.0,pain abdominal
+1136.0,colitis,114.0,fever
+1137.0,colitis,114.0,thicken
+1138.0,colitis,114.0,green sputum
+1139.0,colitis,114.0,vomiting
+1140.0,colitis,114.0,nausea and vomiting
+1141.0,colitis,114.0,awakening early
+1142.0,colitis,114.0,pain
+1143.0,colitis,114.0,nausea
+1144.0,colitis,114.0,chill
+1145.0,colitis,114.0,tenesmus
+1146.0,colitis,114.0,urge incontinence
+1147.0,colitis,114.0,pain abdominal
+1148.0,colitis,114.0,hemodynamically stable
+1149.0,diverticulosis,114.0,fecaluria
+1150.0,diverticulosis,114.0,constipation
+1151.0,diverticulosis,114.0,abscess bacterial
+1152.0,diverticulosis,114.0,heme positive
+1153.0,diverticulosis,114.0,lightheadedness
+1154.0,diverticulosis,114.0,diarrhea
+1155.0,diverticulosis,114.0,haemorrhage
+1156.0,diverticulosis,114.0,pain
+1157.0,diverticulosis,114.0,projectile vomiting
+1158.0,diverticulosis,114.0,pneumatouria
+1159.0,diverticulosis,114.0,cystic lesion
+1160.0,diverticulosis,114.0,anorexia
+1161.0,diverticulosis,114.0,nausea
+1162.0,diverticulosis,114.0,feeling suicidal
+1163.0,diverticulosis,114.0,feeling hopeless
+1164.0,suicide attempt,114.0,hallucinations auditory
+1165.0,suicide attempt,114.0,sleeplessness
+1166.0,suicide attempt,114.0,suicidal
+1167.0,suicide attempt,114.0,motor retardation
+1168.0,suicide attempt,114.0,weepiness
+1169.0,suicide attempt,114.0,unable to concentrate
+1170.0,suicide attempt,114.0,todd paralysis
+1171.0,suicide attempt,114.0,worry
+1172.0,suicide attempt,114.0,fatigue
+1173.0,suicide attempt,114.0,tremor
+1174.0,suicide attempt,114.0,alcoholic withdrawal symptoms
+1175.0,suicide attempt,114.0,agitation
+1176.0,suicide attempt,114.0,unresponsiveness
+1177.0,suicide attempt,114.0,blackout
+1178.0,suicide attempt,114.0,withdraw
+1179.0,suicide attempt,114.0,difficulty
+1180.0,suicide attempt,114.0,irritable mood
+1181.0,suicide attempt,114.0,sensory discomfort
+1182.0,suicide attempt,114.0,drowsiness
+1183.0,suicide attempt,114.0,formication
+1184.0,suicide attempt,114.0,unconscious state
+1185.0,suicide attempt,114.0,fever
+1186.0,suicide attempt,114.0,cough
+1187.0,Pneumocystis carinii pneumonia,113.0,yellow sputum
+1188.0,Pneumocystis carinii pneumonia,113.0,cachexia
+1189.0,Pneumocystis carinii pneumonia,113.0,chill
+1190.0,Pneumocystis carinii pneumonia,113.0,decreased body weight
+1191.0,Pneumocystis carinii pneumonia,113.0,productive cough
+1192.0,Pneumocystis carinii pneumonia,113.0,myalgia
+1193.0,Pneumocystis carinii pneumonia,113.0,diarrhea
+1194.0,Pneumocystis carinii pneumonia,113.0,neck stiffness
+1195.0,Pneumocystis carinii pneumonia,113.0,hacking cough
+1196.0,Pneumocystis carinii pneumonia,113.0,dyspareunia
+1197.0,Pneumocystis carinii pneumonia,113.0,hypokalemia
+1198.0,Pneumocystis carinii pneumonia,113.0,dyspnea on exertion
+1199.0,Pneumocystis carinii pneumonia,113.0,poor dentition
+1200.0,Pneumocystis carinii pneumonia,113.0,transaminitis
+1201.0,Pneumocystis carinii pneumonia,113.0,non-productive cough
+1202.0,Pneumocystis carinii pneumonia,113.0,headache
+1203.0,Pneumocystis carinii pneumonia,113.0,floppy
+1204.0,Pneumocystis carinii pneumonia,113.0,spontaneous rupture of membranes
+1205.0,hepatitis B,111.0,inappropriate affect
+1206.0,hepatitis B,111.0,tachypnea
+1207.0,hepatitis B,111.0,yellow sputum
+1208.0,hepatitis B,111.0,projectile vomiting
+1209.0,hepatitis B,111.0,poor feeding
+1210.0,hepatitis B,111.0,pain abdominal
+1211.0,hepatitis B,111.0,abdominal tenderness
+1212.0,hepatitis B,111.0,wheelchair bound
+1213.0,hepatitis B,111.0,moan
+1214.0,parkinson disease,108.0,achalasia
+1215.0,parkinson disease,108.0,fall
+1216.0,parkinson disease,108.0,stiffness
+1217.0,parkinson disease,108.0,withdraw
+1218.0,parkinson disease,108.0,agitation
+1219.0,parkinson disease,108.0,hemiplegia
+1220.0,parkinson disease,108.0,difficulty
+1221.0,parkinson disease,108.0,unresponsiveness
+1222.0,parkinson disease,108.0,syncope
+1223.0,parkinson disease,108.0,facial paresis
+1224.0,parkinson disease,108.0,orthostasis
+1225.0,parkinson disease,108.0,worry
+1226.0,parkinson disease,108.0,drowsiness^sleepy
+1227.0,parkinson disease,108.0,hematuria
+1228.0,parkinson disease,108.0,tremor
+1229.0,parkinson disease,108.0,night sweat
+1230.0,parkinson disease,108.0,mass of body structure
+1231.0,lymphoma,105.0,lesion
+1232.0,lymphoma,105.0,fever
+1233.0,lymphoma,105.0,welt
+1234.0,lymphoma,105.0,transaminitis
+1235.0,lymphoma,105.0,decreased body weight
+1236.0,lymphoma,105.0,ataxia
+1237.0,lymphoma,105.0,tinnitus
+1238.0,lymphoma,105.0,hydropneumothorax
+1239.0,lymphoma,105.0,superimposition
+1240.0,lymphoma,105.0,haemoptysis
+1241.0,lymphoma,105.0,fatigue^tired
+1242.0,lymphoma,105.0,polydypsia
+1243.0,lymphoma,105.0,difficulty passing urine
+1244.0,hyperglycemia,104.0,sore to touch
+1245.0,hyperglycemia,104.0,pruritus
+1246.0,hyperglycemia,104.0,feeling strange
+1247.0,hyperglycemia,104.0,pustule
+1248.0,hyperglycemia,104.0,cushingoid facies^cushingoid habitus
+1249.0,hyperglycemia,104.0,decreased body weight
+1250.0,hyperglycemia,104.0,mood depressed
+1251.0,hyperglycemia,104.0,estrogen use
+1252.0,hyperglycemia,104.0,wheezing
+1253.0,hyperglycemia,104.0,ascites
+1254.0,hyperglycemia,104.0,seizure
+1255.0,encephalopathy,103.0,uncoordination
+1256.0,encephalopathy,103.0,asterixis
+1257.0,encephalopathy,103.0,haemorrhage
+1258.0,encephalopathy,103.0,drowsiness^sleepy
+1259.0,encephalopathy,103.0,absences finding
+1260.0,encephalopathy,103.0,posturing
+1261.0,encephalopathy,103.0,aura
+1262.0,encephalopathy,103.0,tonic seizures
+1263.0,encephalopathy,103.0,debilitation
+1264.0,encephalopathy,103.0,consciousness clear
+1265.0,encephalopathy,103.0,unresponsiveness
+1266.0,encephalopathy,103.0,thicken
+1267.0,encephalopathy,103.0,hypokinesia
+1268.0,tricuspid valve insufficiency,101.0,shortness of breath
+1269.0,tricuspid valve insufficiency,101.0,pain
+1270.0,tricuspid valve insufficiency,101.0,vomiting
+1271.0,tricuspid valve insufficiency,101.0,nausea
+1272.0,tricuspid valve insufficiency,101.0,bradycardia
+1273.0,tricuspid valve insufficiency,101.0,pain abdominal
+1274.0,tricuspid valve insufficiency,101.0,fever
+1275.0,tricuspid valve insufficiency,101.0,cicatrisation
+1276.0,tricuspid valve insufficiency,101.0,mediastinal shift
+1277.0,tricuspid valve insufficiency,101.0,impaired cognition
+1278.0,Alzheimer's disease,101.0,drool
+1279.0,Alzheimer's disease,101.0,agitation
+1280.0,Alzheimer's disease,101.0,nightmare
+1281.0,Alzheimer's disease,101.0,rhonchus
+1282.0,Alzheimer's disease,101.0,consciousness clear
+1283.0,Alzheimer's disease,101.0,pin-point pupils
+1284.0,Alzheimer's disease,101.0,bedridden^bedridden
+1285.0,Alzheimer's disease,101.0,frail
+1286.0,Alzheimer's disease,101.0,tremor resting
+1287.0,Alzheimer's disease,101.0,hyperkalemia
+1288.0,Alzheimer's disease,101.0,facial paresis
+1289.0,Alzheimer's disease,101.0,groggy
+1290.0,Alzheimer's disease,101.0,muscle twitch
+1291.0,Alzheimer's disease,101.0,wheelchair bound
+1292.0,Alzheimer's disease,101.0,tremor
+1293.0,Alzheimer's disease,101.0,cough
+1294.0,Alzheimer's disease,101.0,fever
+1295.0,candidiasis^oral candidiasis,99.0,diarrhea
+1296.0,candidiasis^oral candidiasis,99.0,throat sore
+1297.0,candidiasis^oral candidiasis,99.0,decreased body weight
+1298.0,candidiasis^oral candidiasis,99.0,chill
+1299.0,candidiasis^oral candidiasis,99.0,headache
+1300.0,candidiasis^oral candidiasis,99.0,abdominal tenderness
+1301.0,candidiasis^oral candidiasis,99.0,patient non compliance
+1302.0,candidiasis^oral candidiasis,99.0,photophobia
+1303.0,candidiasis^oral candidiasis,99.0,night sweat
+1304.0,candidiasis^oral candidiasis,99.0,painful swallowing
+1305.0,candidiasis^oral candidiasis,99.0,poor dentition
+1306.0,candidiasis^oral candidiasis,99.0,transaminitis
+1307.0,candidiasis^oral candidiasis,99.0,non-productive cough
+1308.0,candidiasis^oral candidiasis,99.0,adverse reaction^adverse effect
+1309.0,candidiasis^oral candidiasis,99.0,abdominal bloating
+1310.0,neuropathy,99.0,asthenia
+1311.0,neuropathy,99.0,numbness
+1312.0,neuropathy,99.0,nausea and vomiting
+1313.0,neuropathy,99.0,awakening early
+1314.0,neuropathy,99.0,hydropneumothorax
+1315.0,neuropathy,99.0,superimposition
+1316.0,neuropathy,99.0,fatigability
+1317.0,neuropathy,99.0,tenesmus
+1318.0,neuropathy,99.0,pain
+1319.0,neuropathy,99.0,slowing of urinary stream
+1320.0,kidney disease,96.0,shortness of breath
+1321.0,kidney disease,96.0,hyperkalemia
+1322.0,kidney disease,96.0,pain chest
+1323.0,kidney disease,96.0,fever
+1324.0,kidney disease,96.0,gravida 0
+1325.0,kidney disease,96.0,bleeding of vagina
+1326.0,fibroid tumor,96.0,para 2
+1327.0,fibroid tumor,96.0,haemorrhage
+1328.0,fibroid tumor,96.0,abortion
+1329.0,fibroid tumor,96.0,intermenstrual heavy bleeding
+1330.0,fibroid tumor,96.0,muscle hypotonia^hypotonic
+1331.0,fibroid tumor,96.0,previous pregnancies 2
+1332.0,fibroid tumor,96.0,shortness of breath
+1333.0,fibroid tumor,96.0,fever
+1334.0,fibroid tumor,96.0,heartburn
+1335.0,fibroid tumor,96.0,primigravida
+1336.0,fibroid tumor,96.0,abnormally hard consistency
+1337.0,fibroid tumor,96.0,proteinemia
+1338.0,glaucoma,95.0,fall
+1339.0,glaucoma,95.0,distended abdomen
+1340.0,glaucoma,95.0,unsteady gait
+1341.0,glaucoma,95.0,paresthesia
+1342.0,glaucoma,95.0,hyponatremia
+1343.0,glaucoma,95.0,agitation
+1344.0,glaucoma,95.0,unconscious state
+1345.0,glaucoma,95.0,burning sensation
+1346.0,glaucoma,95.0,lesion
+1347.0,glaucoma,95.0,mass of body structure
+1348.0,neoplasm metastasis,94.0,thicken
+1349.0,neoplasm metastasis,94.0,tumor cell invasion
+1350.0,neoplasm metastasis,94.0,metastatic lesion
+1351.0,neoplasm metastasis,94.0,pain neck
+1352.0,neoplasm metastasis,94.0,lung nodule
+1353.0,neoplasm metastasis,94.0,pain
+1354.0,neoplasm metastasis,94.0,pain abdominal
+1355.0,neoplasm metastasis,94.0,food intolerance
+1356.0,neoplasm metastasis,94.0,mass of body structure
+1357.0,neoplasm metastasis,94.0,atypia
+1358.0,malignant tumor of colon^carcinoma colon,94.0,lesion
+1359.0,malignant tumor of colon^carcinoma colon,94.0,prostatism
+1360.0,malignant tumor of colon^carcinoma colon,94.0,constipation
+1361.0,malignant tumor of colon^carcinoma colon,94.0,general discomfort
+1362.0,malignant tumor of colon^carcinoma colon,94.0,diarrhea
+1363.0,malignant tumor of colon^carcinoma colon,94.0,pain abdominal
+1364.0,malignant tumor of colon^carcinoma colon,94.0,urinary hesitation
+1365.0,malignant tumor of colon^carcinoma colon,94.0,dizzy spells
+1366.0,malignant tumor of colon^carcinoma colon,94.0,shooting pain
+1367.0,malignant tumor of colon^carcinoma colon,94.0,bradycardia
+1368.0,malignant tumor of colon^carcinoma colon,94.0,vomiting
+1369.0,malignant tumor of colon^carcinoma colon,94.0,systolic ejection murmur
+1370.0,malignant tumor of colon^carcinoma colon,94.0,nausea
+1371.0,malignant tumor of colon^carcinoma colon,94.0,hyperemesis
+1372.0,malignant tumor of colon^carcinoma colon,94.0,polydypsia
+1373.0,ketoacidosis diabetic,93.0,polyuria
+1374.0,ketoacidosis diabetic,93.0,vomiting
+1375.0,ketoacidosis diabetic,93.0,nausea
+1376.0,ketoacidosis diabetic,93.0,pain abdominal
+1377.0,ketoacidosis diabetic,93.0,milky
+1378.0,ketoacidosis diabetic,93.0,feeling strange
+1379.0,ketoacidosis diabetic,93.0,gurgle
+1380.0,ketoacidosis diabetic,93.0,nervousness
+1381.0,ketoacidosis diabetic,93.0,abdominal tenderness
+1382.0,ketoacidosis diabetic,93.0,regurgitates after swallowing
+1383.0,ketoacidosis diabetic,93.0,vision blurred
+1384.0,ketoacidosis diabetic,93.0,urinary hesitation
+1385.0,ketoacidosis diabetic,93.0,diarrhea
+1386.0,ketoacidosis diabetic,93.0,seizure
+1387.0,ketoacidosis diabetic,93.0,aura
+1388.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,drowsiness
+1389.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,lip smacking
+1390.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,myoclonus
+1391.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,tremor
+1392.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,phonophobia
+1393.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,rolling of eyes
+1394.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,sleepy
+1395.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,hirsutism
+1396.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,moody
+1397.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,muscle twitch
+1398.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,unresponsiveness
+1399.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,headache
+1400.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,ambidexterity
+1401.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,absences finding
+1402.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,spasm
+1403.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,decreased body weight
+1404.0,tonic-clonic epilepsy^tonic-clonic seizures,92.0,tumor cell invasion
+1405.0,malignant neoplasms,90.0,pulsus paradoxus
+1406.0,malignant neoplasms,90.0,gravida 10
+1407.0,malignant neoplasms,90.0,mass of body structure
+1408.0,malignant neoplasms,90.0,lesion
+1409.0,malignant neoplasms,90.0,heartburn
+1410.0,malignant neoplasms,90.0,night sweat
+1411.0,malignant neoplasms,90.0,thicken
+1412.0,malignant neoplasms,90.0,chill
+1413.0,malignant neoplasms,90.0,decreased translucency
+1414.0,malignant neoplasms,90.0,pain abdominal
+1415.0,malignant neoplasms,90.0,dullness
+1416.0,malignant neoplasms,90.0,food intolerance
+1417.0,malignant neoplasms,90.0,distress respiratory
+1418.0,malignant neoplasms,90.0,hypotension
+1419.0,respiratory failure,90.0,hemiplegia
+1420.0,respiratory failure,90.0,snore
+1421.0,respiratory failure,90.0,unresponsiveness
+1422.0,respiratory failure,90.0,productive cough
+1423.0,respiratory failure,90.0,dyspnea
+1424.0,respiratory failure,90.0,tachypnea
+1425.0,respiratory failure,90.0,hyperkalemia
+1426.0,respiratory failure,90.0,hypokinesia
+1427.0,respiratory failure,90.0,sinus rhythm
+1428.0,respiratory failure,90.0,general unsteadiness
+1429.0,respiratory failure,90.0,bruit
+1430.0,respiratory failure,90.0,consciousness clear
+1431.0,respiratory failure,90.0,shortness of breath
+1432.0,respiratory failure,90.0,lesion
+1433.0,respiratory failure,90.0,redness
+1434.0,melanoma,87.0,mass of body structure
+1435.0,melanoma,87.0,paraparesis
+1436.0,melanoma,87.0,fever
+1437.0,melanoma,87.0,gravida 0
+1438.0,melanoma,87.0,pain
+1439.0,melanoma,87.0,pruritus
+1440.0,melanoma,87.0,mass in breast
+1441.0,melanoma,87.0,vomiting
+1442.0,melanoma,87.0,diarrhea
+1443.0,gastroenteritis,87.0,pain abdominal
+1444.0,gastroenteritis,87.0,breath-holding spell
+1445.0,gastroenteritis,87.0,nausea
+1446.0,gastroenteritis,87.0,decreased body weight
+1447.0,gastroenteritis,87.0,sore to touch
+1448.0,gastroenteritis,87.0,scleral icterus
+1449.0,gastroenteritis,87.0,fever
+1450.0,gastroenteritis,87.0,myalgia
+1451.0,gastroenteritis,87.0,hyponatremia
+1452.0,gastroenteritis,87.0,retch
+1453.0,gastroenteritis,87.0,mass of body structure
+1454.0,gastroenteritis,87.0,decreased body weight
+1455.0,malignant neoplasm of lung^carcinoma of lung,86.0,lesion
+1456.0,malignant neoplasm of lung^carcinoma of lung,86.0,cough
+1457.0,malignant neoplasm of lung^carcinoma of lung,86.0,lung nodule
+1458.0,malignant neoplasm of lung^carcinoma of lung,86.0,shortness of breath
+1459.0,malignant neoplasm of lung^carcinoma of lung,86.0,haemoptysis
+1460.0,malignant neoplasm of lung^carcinoma of lung,86.0,debilitation
+1461.0,malignant neoplasm of lung^carcinoma of lung,86.0,gurgle
+1462.0,malignant neoplasm of lung^carcinoma of lung,86.0,ache
+1463.0,malignant neoplasm of lung^carcinoma of lung,86.0,rale
+1464.0,malignant neoplasm of lung^carcinoma of lung,86.0,night sweat
+1465.0,malignant neoplasm of lung^carcinoma of lung,86.0,decreased translucency
+1466.0,malignant neoplasm of lung^carcinoma of lung,86.0,asthenia
+1467.0,malignant neoplasm of lung^carcinoma of lung,86.0,metastatic lesion
+1468.0,malignant neoplasm of lung^carcinoma of lung,86.0,agitation
+1469.0,malignant neoplasm of lung^carcinoma of lung,86.0,irritable mood
+1470.0,manic disorder,85.0,energy increased
+1471.0,manic disorder,85.0,suicidal
+1472.0,manic disorder,85.0,hypersomnia
+1473.0,manic disorder,85.0,feeling suicidal
+1474.0,manic disorder,85.0,blanch
+1475.0,manic disorder,85.0,hallucinations auditory
+1476.0,manic disorder,85.0,hallucinations visual
+1477.0,manic disorder,85.0,elation
+1478.0,manic disorder,85.0,verbal auditory hallucinations
+1479.0,manic disorder,85.0,feeling hopeless
+1480.0,manic disorder,85.0,difficulty
+1481.0,manic disorder,85.0,decompensation
+1482.0,manic disorder,85.0,verbally abusive behavior
+1483.0,manic disorder,85.0,suicidal
+1484.0,manic disorder,85.0,feeling suicidal
+1485.0,personality disorder,84.0,nightmare
+1486.0,personality disorder,84.0,feeling hopeless
+1487.0,personality disorder,84.0,transsexual
+1488.0,personality disorder,84.0,hallucinations auditory
+1489.0,personality disorder,84.0,irritable mood
+1490.0,personality disorder,84.0,sleeplessness
+1491.0,personality disorder,84.0,agitation
+1492.0,personality disorder,84.0,weepiness
+1493.0,personality disorder,84.0,mood depressed
+1494.0,personality disorder,84.0,scratch marks
+1495.0,personality disorder,84.0,nausea and vomiting
+1496.0,personality disorder,84.0,extreme exhaustion
+1497.0,personality disorder,84.0,side pain
+1498.0,personality disorder,84.0,worry
+1499.0,personality disorder,84.0,enuresis
+1500.0,personality disorder,84.0,homelessness
+1501.0,personality disorder,84.0,nervousness
+1502.0,personality disorder,84.0,ascites
+1503.0,personality disorder,84.0,pruritus
+1504.0,primary carcinoma of the liver cells,82.0,mass of body structure
+1505.0,primary carcinoma of the liver cells,82.0,splenomegaly
+1506.0,primary carcinoma of the liver cells,82.0,lesion
+1507.0,primary carcinoma of the liver cells,82.0,paresis
+1508.0,primary carcinoma of the liver cells,82.0,tumor cell invasion
+1509.0,primary carcinoma of the liver cells,82.0,room spinning
+1510.0,primary carcinoma of the liver cells,82.0,haemorrhage
+1511.0,primary carcinoma of the liver cells,82.0,thicken
+1512.0,primary carcinoma of the liver cells,82.0,indifferent mood
+1513.0,primary carcinoma of the liver cells,82.0,cachexia
+1514.0,primary carcinoma of the liver cells,82.0,"hypothermia, natural"
+1515.0,primary carcinoma of the liver cells,82.0,pain abdominal
+1516.0,primary carcinoma of the liver cells,82.0,hepatomegaly
+1517.0,primary carcinoma of the liver cells,82.0,hematocrit decreased
+1518.0,primary carcinoma of the liver cells,82.0,stupor
+1519.0,primary carcinoma of the liver cells,82.0,decreased body weight
+1520.0,primary carcinoma of the liver cells,82.0,shortness of breath
+1521.0,primary carcinoma of the liver cells,82.0,cough
+1522.0,emphysema pulmonary,80.0,behavior showing increased motor activity
+1523.0,emphysema pulmonary,80.0,scar tissue
+1524.0,emphysema pulmonary,80.0,dyspnea on exertion
+1525.0,emphysema pulmonary,80.0,coordination abnormal
+1526.0,emphysema pulmonary,80.0,myalgia
+1527.0,emphysema pulmonary,80.0,hypercapnia
+1528.0,emphysema pulmonary,80.0,clammy skin
+1529.0,emphysema pulmonary,80.0,has religious belief
+1530.0,emphysema pulmonary,80.0,room spinning
+1531.0,emphysema pulmonary,80.0,moan
+1532.0,emphysema pulmonary,80.0,night sweat
+1533.0,emphysema pulmonary,80.0,cachexia
+1534.0,emphysema pulmonary,80.0,symptom aggravating factors
+1535.0,emphysema pulmonary,80.0,dyspnea
+1536.0,emphysema pulmonary,80.0,rale
+1537.0,emphysema pulmonary,80.0,flushing
+1538.0,emphysema pulmonary,80.0,painful swallowing
+1539.0,emphysema pulmonary,80.0,arthralgia
+1540.0,emphysema pulmonary,80.0,choke
+1541.0,emphysema pulmonary,80.0,tenesmus
+1542.0,emphysema pulmonary,80.0,constipation
+1543.0,hemorrhoids,80.0,haemorrhage
+1544.0,hemorrhoids,80.0,bowel sounds decreased
+1545.0,hemorrhoids,80.0,decreased stool caliber
+1546.0,hemorrhoids,80.0,nausea and vomiting
+1547.0,hemorrhoids,80.0,hunger
+1548.0,hemorrhoids,80.0,diarrhea
+1549.0,hemorrhoids,80.0,dizziness
+1550.0,hemorrhoids,80.0,hyponatremia
+1551.0,hemorrhoids,80.0,clonus
+1552.0,hemorrhoids,80.0,pain
+1553.0,hemorrhoids,80.0,achalasia
+1554.0,hemorrhoids,80.0,burning sensation
+1555.0,hemorrhoids,80.0,guaiac positive
+1556.0,hemorrhoids,80.0,numbness of hand
+1557.0,hemorrhoids,80.0,wheezing
+1558.0,hemorrhoids,80.0,cough
+1559.0,spasm bronchial,76.0,shortness of breath
+1560.0,spasm bronchial,76.0,scar tissue
+1561.0,spasm bronchial,76.0,apyrexial
+1562.0,spasm bronchial,76.0,no known drug allergies
+1563.0,spasm bronchial,76.0,pain
+1564.0,spasm bronchial,76.0,productive cough
+1565.0,spasm bronchial,76.0,throat sore
+1566.0,spasm bronchial,76.0,dyspnea
+1567.0,spasm bronchial,76.0,chest tightness
+1568.0,spasm bronchial,76.0,hypoxemia
+1569.0,spasm bronchial,76.0,tachypnea
+1570.0,spasm bronchial,76.0,sensory discomfort
+1571.0,spasm bronchial,76.0,fever
+1572.0,spasm bronchial,76.0,vomiting
+1573.0,spasm bronchial,76.0,rhonchus
+1574.0,spasm bronchial,76.0,hemiplegia
+1575.0,spasm bronchial,76.0,fremitus
+1576.0,aphasia,76.0,clonus
+1577.0,aphasia,76.0,egophony
+1578.0,aphasia,76.0,facial paresis
+1579.0,aphasia,76.0,aphagia
+1580.0,aphasia,76.0,muscle twitch
+1581.0,aphasia,76.0,paralyse
+1582.0,aphasia,76.0,low back pain
+1583.0,aphasia,76.0,charleyhorse
+1584.0,obesity morbid,76.0,out of breath
+1585.0,obesity morbid,76.0,sedentary
+1586.0,obesity morbid,76.0,angina pectoris
+1587.0,obesity morbid,76.0,cough
+1588.0,obesity morbid,76.0,unhappy
+1589.0,obesity morbid,76.0,labored breathing
+1590.0,obesity morbid,76.0,"hypothermia, natural"
+1591.0,obesity morbid,76.0,dyspnea
+1592.0,obesity morbid,76.0,hematocrit decreased
+1593.0,obesity morbid,76.0,wheezing
+1594.0,obesity morbid,76.0,hypoxemia
+1595.0,obesity morbid,76.0,renal angle tenderness
+1596.0,obesity morbid,76.0,feels hot/feverish
+1597.0,pyelonephritis,74.0,fever
+1598.0,pyelonephritis,74.0,pain
+1599.0,pyelonephritis,74.0,urgency of micturition
+1600.0,pyelonephritis,74.0,hematuria
+1601.0,pyelonephritis,74.0,vomiting
+1602.0,pyelonephritis,74.0,chill
+1603.0,pyelonephritis,74.0,diarrhea
+1604.0,pyelonephritis,74.0,nausea
+1605.0,pyelonephritis,74.0,pain abdominal
+1606.0,pyelonephritis,74.0,myalgia
+1607.0,pyelonephritis,74.0,fever
+1608.0,pyelonephritis,74.0,chill
+1609.0,endocarditis,71.0,pleuritic pain
+1610.0,endocarditis,71.0,thicken
+1611.0,endocarditis,71.0,myalgia
+1612.0,endocarditis,71.0,apyrexial
+1613.0,endocarditis,71.0,night sweat
+1614.0,endocarditis,71.0,flare
+1615.0,endocarditis,71.0,shortness of breath
+1616.0,endocarditis,71.0,orthopnea
+1617.0,endocarditis,71.0,abscess bacterial
+1618.0,endocarditis,71.0,hypotension
+1619.0,endocarditis,71.0,cough
+1620.0,endocarditis,71.0,metastatic lesion
+1621.0,endocarditis,71.0,breath sounds decreased
+1622.0,endocarditis,71.0,decreased body weight
+1623.0,endocarditis,71.0,
+1624.0,endocarditis,71.0,pulsus paradoxus
+1625.0,endocarditis,71.0,hypokinesia
+1626.0,effusion pericardial^pericardial effusion body substance,71.0,pericardial friction rub
+1627.0,effusion pericardial^pericardial effusion body substance,71.0,dyspnea
+1628.0,effusion pericardial^pericardial effusion body substance,71.0,shortness of breath
+1629.0,effusion pericardial^pericardial effusion body substance,71.0,hemodynamically stable
+1630.0,effusion pericardial^pericardial effusion body substance,71.0,cardiomegaly
+1631.0,effusion pericardial^pericardial effusion body substance,71.0,hypotension
+1632.0,effusion pericardial^pericardial effusion body substance,71.0,sputum purulent
+1633.0,effusion pericardial^pericardial effusion body substance,71.0,facial paresis
+1634.0,effusion pericardial^pericardial effusion body substance,71.0,pain
+1635.0,effusion pericardial^pericardial effusion body substance,71.0,oliguria
+1636.0,effusion pericardial^pericardial effusion body substance,71.0,blackout
+1637.0,effusion pericardial^pericardial effusion body substance,71.0,intoxication
+1638.0,chronic alcoholic intoxication,70.0,tremor
+1639.0,chronic alcoholic intoxication,70.0,hallucinations auditory
+1640.0,chronic alcoholic intoxication,70.0,suicidal
+1641.0,chronic alcoholic intoxication,70.0,hoard
+1642.0,chronic alcoholic intoxication,70.0,irritable mood
+1643.0,chronic alcoholic intoxication,70.0,feeling hopeless
+1644.0,chronic alcoholic intoxication,70.0,feeling suicidal
+1645.0,chronic alcoholic intoxication,70.0,neologism
+1646.0,chronic alcoholic intoxication,70.0,seizure
+1647.0,chronic alcoholic intoxication,70.0,homelessness
+1648.0,chronic alcoholic intoxication,70.0,sleeplessness
+1649.0,chronic alcoholic intoxication,70.0,unconscious state
+1650.0,chronic alcoholic intoxication,70.0,panic
+1651.0,chronic alcoholic intoxication,70.0,breath sounds decreased
+1652.0,chronic alcoholic intoxication,70.0,shortness of breath
+1653.0,pneumothorax,68.0,dyspnea
+1654.0,pneumothorax,68.0,cardiovascular finding^cardiovascular event
+1655.0,pneumothorax,68.0,haemoptysis
+1656.0,pneumothorax,68.0,cough
+1657.0,pneumothorax,68.0,hypercapnia
+1658.0,pneumothorax,68.0,soft tissue swelling
+1659.0,pneumothorax,68.0,prostatism
+1660.0,pneumothorax,68.0,agitation
+1661.0,delirium,68.0,unsteady gait
+1662.0,delirium,68.0,withdraw
+1663.0,delirium,68.0,hyponatremia
+1664.0,delirium,68.0,verbally abusive behavior
+1665.0,delirium,68.0,feeling suicidal
+1666.0,delirium,68.0,unresponsiveness
+1667.0,delirium,68.0,worry
+1668.0,delirium,68.0,drowsiness^sleepy
+1669.0,delirium,68.0,hallucinations auditory
+1670.0,delirium,68.0,suicidal
+1671.0,delirium,68.0,fever
+1672.0,delirium,68.0,diarrhea
+1673.0,neutropenia,68.0,transaminitis
+1674.0,neutropenia,68.0,splenomegaly
+1675.0,neutropenia,68.0,night sweat
+1676.0,neutropenia,68.0,apyrexial
+1677.0,neutropenia,68.0,lesion
+1678.0,neutropenia,68.0,snuffle
+1679.0,neutropenia,68.0,chill
+1680.0,neutropenia,68.0,cough
+1681.0,neutropenia,68.0,monoclonal
+1682.0,neutropenia,68.0,hypocalcemia result
+1683.0,neutropenia,68.0,oliguria
+1684.0,neutropenia,68.0,rhd positive
+1685.0,neutropenia,68.0,distress respiratory
+1686.0,hyperbilirubinemia,68.0,cyanosis
+1687.0,hyperbilirubinemia,68.0,tachypnea
+1688.0,hyperbilirubinemia,68.0,para 1
+1689.0,hyperbilirubinemia,68.0,bradycardia
+1690.0,hyperbilirubinemia,68.0,breech presentation
+1691.0,hyperbilirubinemia,68.0,cushingoid facies^cushingoid habitus
+1692.0,hyperbilirubinemia,68.0,cough
+1693.0,hyperbilirubinemia,68.0,myalgia
+1694.0,influenza,68.0,uncoordination
+1695.0,influenza,68.0,fever
+1696.0,influenza,68.0,pleuritic pain
+1697.0,influenza,68.0,snuffle
+1698.0,influenza,68.0,throat sore
+1699.0,influenza,68.0,malaise
+1700.0,influenza,68.0,debilitation
+1701.0,influenza,68.0,symptom aggravating factors
+1702.0,influenza,68.0,chill
+1703.0,influenza,68.0,scleral icterus
+1704.0,influenza,68.0,nasal flaring
+1705.0,influenza,68.0,dysuria
+1706.0,influenza,68.0,lip smacking
+1707.0,influenza,68.0,headache
+1708.0,influenza,68.0,sneeze
+1709.0,influenza,68.0,snore
+1710.0,influenza,68.0,green sputum
+1711.0,influenza,68.0,shortness of breath
+1712.0,influenza,68.0,distress respiratory
+1713.0,influenza,68.0,blackout
+1714.0,influenza,68.0,extreme exhaustion
+1715.0,dependence,67.0,intoxication
+1716.0,dependence,67.0,tremor
+1717.0,dependence,67.0,agitation
+1718.0,dependence,67.0,suicidal
+1719.0,dependence,67.0,homelessness
+1720.0,dependence,67.0,prostatism
+1721.0,dependence,67.0,lethargy
+1722.0,dependence,67.0,seizure
+1723.0,dependence,67.0,muscle twitch
+1724.0,dependence,67.0,stuffy nose
+1725.0,dependence,67.0,feeling hopeless
+1726.0,dependence,67.0,heavy legs
+1727.0,dependence,67.0,rale
+1728.0,thrombus,67.0,hypokinesia
+1729.0,thrombus,67.0,anorexia
+1730.0,thrombus,67.0,hypertonicity
+1731.0,thrombus,67.0,shortness of breath
+1732.0,thrombus,67.0,hypoalbuminemia
+1733.0,thrombus,67.0,pruritus
+1734.0,thrombus,67.0,sore to touch
+1735.0,thrombus,67.0,hemodynamically stable
+1736.0,thrombus,67.0,facial paresis
+1737.0,thrombus,67.0,vomiting
+1738.0,thrombus,67.0,stool color yellow
+1739.0,cholecystitis,66.0,moan
+1740.0,cholecystitis,66.0,nausea
+1741.0,cholecystitis,66.0,pain abdominal
+1742.0,cholecystitis,66.0,Murphy's sign
+1743.0,cholecystitis,66.0,flatulence
+1744.0,cholecystitis,66.0,colic abdominal
+1745.0,cholecystitis,66.0,pain
+1746.0,cholecystitis,66.0,ascites
+1747.0,cholecystitis,66.0,diarrhea
+1748.0,cholecystitis,66.0,qt interval prolonged
+1749.0,cholecystitis,66.0,cardiovascular finding^cardiovascular event
+1750.0,cholecystitis,66.0,groggy
+1751.0,cholecystitis,66.0,sinus rhythm
+1752.0,cholecystitis,66.0,gasping for breath
+1753.0,cholecystitis,66.0,constipation
+1754.0,cholecystitis,66.0,feces in rectum
+1755.0,cholecystitis,66.0,abnormally hard consistency
+1756.0,hernia hiatal,61.0,pain abdominal
+1757.0,hernia hiatal,61.0,fatigability
+1758.0,hernia hiatal,61.0,prodrome
+1759.0,hernia hiatal,61.0,vomiting
+1760.0,hernia hiatal,61.0,nausea
+1761.0,hernia hiatal,61.0,myalgia
+1762.0,hernia hiatal,61.0,hyponatremia
+1763.0,hernia hiatal,61.0,sore to touch
+1764.0,hernia hiatal,61.0,general discomfort
+1765.0,hernia hiatal,61.0,dyspnea on exertion
+1766.0,hernia hiatal,61.0,asterixis
+1767.0,hernia hiatal,61.0,guaiac positive
+1768.0,hernia hiatal,61.0,numbness of hand
+1769.0,hernia hiatal,61.0,headache
+1770.0,hernia hiatal,61.0,photophobia
+1771.0,migraine disorders,61.0,ambidexterity
+1772.0,migraine disorders,61.0,vomiting
+1773.0,migraine disorders,61.0,dizziness
+1774.0,migraine disorders,61.0,numbness
+1775.0,migraine disorders,61.0,nausea
+1776.0,migraine disorders,61.0,fever
+1777.0,migraine disorders,61.0,splenomegaly
+1778.0,pancytopenia,61.0,hypoproteinemia
+1779.0,pancytopenia,61.0,fatigue
+1780.0,pancytopenia,61.0,haemorrhage
+1781.0,pancytopenia,61.0,fatigability
+1782.0,pancytopenia,61.0,cushingoid facies^cushingoid habitus
+1783.0,pancytopenia,61.0,stool color yellow
+1784.0,pancytopenia,61.0,colic abdominal
+1785.0,cholelithiasis^biliary calculus,61.0,vomiting
+1786.0,cholelithiasis^biliary calculus,61.0,nausea
+1787.0,cholelithiasis^biliary calculus,61.0,pain abdominal
+1788.0,cholelithiasis^biliary calculus,61.0,pain
+1789.0,cholelithiasis^biliary calculus,61.0,cushingoid facies^cushingoid habitus
+1790.0,cholelithiasis^biliary calculus,61.0,ascites
+1791.0,cholelithiasis^biliary calculus,61.0,thicken
+1792.0,cholelithiasis^biliary calculus,61.0,sore to touch
+1793.0,cholelithiasis^biliary calculus,61.0,diarrhea
+1794.0,cholelithiasis^biliary calculus,61.0,apyrexial
+1795.0,cholelithiasis^biliary calculus,61.0,palpitation
+1796.0,tachycardia sinus,56.0,left atrial hypertrophy
+1797.0,tachycardia sinus,56.0,sweat^sweating increased
+1798.0,tachycardia sinus,56.0,alcohol binge episode
+1799.0,tachycardia sinus,56.0,pressure chest
+1800.0,tachycardia sinus,56.0,scar tissue
+1801.0,tachycardia sinus,56.0,cardiovascular finding^cardiovascular event
+1802.0,tachycardia sinus,56.0,orthostasis
+1803.0,tachycardia sinus,56.0,shortness of breath
+1804.0,tachycardia sinus,56.0,t wave inverted
+1805.0,tachycardia sinus,56.0,vomiting
+1806.0,tachycardia sinus,56.0,pain abdominal
+1807.0,ileus,56.0,abscess bacterial
+1808.0,ileus,56.0,abdomen acute
+1809.0,ileus,56.0,air fluid level
+1810.0,ileus,56.0,catching breath
+1811.0,ileus,56.0,abdominal tenderness
+1812.0,ileus,56.0,nausea
+1813.0,ileus,56.0,sore to touch
+1814.0,ileus,56.0,flatulence
+1815.0,ileus,56.0,diarrhea
+1816.0,ileus,56.0,mass of body structure
+1817.0,ileus,56.0,apyrexial
+1818.0,ileus,56.0,constipation
+1819.0,ileus,56.0,thicken
+1820.0,ileus,56.0,gravida 0
+1821.0,ileus,56.0,pain abdominal
+1822.0,adhesion,57.0,flatulence
+1823.0,adhesion,57.0,pain
+1824.0,adhesion,57.0,large-for-dates fetus
+1825.0,adhesion,57.0,para 1
+1826.0,adhesion,57.0,vomiting
+1827.0,adhesion,57.0,lung nodule
+1828.0,adhesion,57.0,breech presentation
+1829.0,adhesion,57.0,shortness of breath
+1830.0,adhesion,57.0,decreased body weight
+1831.0,adhesion,57.0,immobile
+1832.0,adhesion,57.0,unsteady gait
+1833.0,adhesion,57.0,hallucinations visual
+1834.0,adhesion,57.0,feeling suicidal
+1835.0,delusion,56.0,loose associations
+1836.0,delusion,56.0,giddy mood
+1837.0,delusion,56.0,feeling hopeless
+1838.0,delusion,56.0,agitation
+1839.0,delusion,56.0,hallucinations auditory
+1840.0,delusion,56.0,irritable mood
+1841.0,delusion,56.0,sleeplessness
+1842.0,delusion,56.0,neologism
+1843.0,delusion,56.0,homicidal thoughts
+1844.0,delusion,56.0,disturbed family
+1845.0,delusion,56.0,worry
+1846.0,delusion,56.0,decompensation
+1847.0,delusion,56.0,verbally abusive behavior
+1848.0,delusion,56.0,catatonia
+1849.0,delusion,56.0,suicidal
+1850.0,delusion,56.0,terrify
+1851.0,delusion,56.0,blackout
+1852.0,delusion,56.0,weepiness
+1853.0,delusion,56.0,impaired cognition
+1854.0,delusion,56.0,irritable mood
+1855.0,delusion,56.0,agitation
+1856.0,affect labile,45.0,extreme exhaustion
+1857.0,affect labile,45.0,sleeplessness
+1858.0,affect labile,45.0,enuresis
+1859.0,affect labile,45.0,patient non compliance
+1860.0,affect labile,45.0,feeling hopeless
+1861.0,affect labile,45.0,hallucinations visual
+1862.0,affect labile,45.0,bedridden^bedridden
+1863.0,affect labile,45.0,prostatism
+1864.0,decubitus ulcer,42.0,systolic murmur
+1865.0,decubitus ulcer,42.0,frail
+1866.0,decubitus ulcer,42.0,fever
+,,,
