@@ -33,7 +33,30 @@ def find_diseases_by_symptoms(symptoms, disease_map):
     
     return matched_diseases
 
-def calculate_possibility(user_symptoms, matched_diseases):
+def need_more_info():
+    print("We need more information to determine the disease!!!\n")
+    exit()
+
+def calculate_sum_probability(sorted_poss, num):
+    count = 0
+    sum = 0
+    for i in range(len(sorted_poss)):
+        if count < num:
+            cur_poss = sorted_poss[i]
+            sum += cur_poss[1]
+            count += 1
+    return sum
+
+def calculate_probability_diff(diff_threshold, sorted_poss, num):
+    sum = calculate_sum_probability(sorted_poss, num)
+    avg = sum / num
+    for i in range(num):
+        cur = sorted_poss[i]
+        if abs(cur[1]-avg) > diff_threshold:
+            return 0
+    return 1
+
+def calculate_possibility(diff_threshold, num, sum_threshold, user_symptoms, matched_diseases):
     """Calculate the overlap rate between user-provided symptoms and each possible disease's symptoms."""
     user_symptoms_set = set(user_symptoms)
     possibilities = {}
@@ -43,6 +66,17 @@ def calculate_possibility(user_symptoms, matched_diseases):
         possibility = len(common_symptoms) / len(disease_symptoms)
         possibilities[disease] = possibility * 100
     
+    # check whether need more info
+    sorted_poss = sorted(possibilities.items(), key=lambda x:x[1], reverse = True)
+    sum = calculate_sum_probability(sorted_poss, num)
+    if sum < sum_threshold:
+        need_more_info()
+        
+    difference = calculate_probability_diff(diff_threshold, sorted_poss, num)
+    if difference == 1:
+        need_more_info()
+
+    # if not, return
     if len(possibilities.keys()) > 10:
         return sorted(possibilities.items(), key=lambda x:x[1], reverse = True)[:10]
     else:
@@ -54,13 +88,13 @@ if __name__ == "__main__":
     symptoms = ['pain chest']  # User-provided symptoms list
     disease_map = read_csv(file_path)
     # print(disease_map)
+    sum_threshold = 60
+    diff_threshold = 10
+    num = 3
+
     matched_diseases = find_diseases_by_symptoms(symptoms, disease_map)
-    possibility = calculate_possibility(symptoms, matched_diseases)
-    # for i in possibility:
-    #     if "^" in i[0]:
-    #         i[0].replace("^", " and ")
-    #     print("Possible Disease is:", i[0], "\nwith possibility:", f"{i[1]:.3f}%")
-    #     print("\n")
+    possibility = calculate_possibility(diff_threshold, num, sum_threshold, symptoms, matched_diseases)
+
     for i in possibility:
         disease_name = ""
         if "^" in i[0]:
