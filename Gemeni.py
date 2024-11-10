@@ -23,6 +23,6 @@ chat_session = model.start_chat(
   ]
 )
 
-response = chat_session.send_message("I dont feel good, my stomach hurts.")
+response = chat_session.send_message("I think I have a fever, what should i do now?")
 
 print(response.text)
