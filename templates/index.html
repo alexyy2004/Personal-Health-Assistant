@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        label, input, button {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .results {
+            margin-top: 20px;
+        }
+        .disease-item {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Disease Prediction</h1>
+    <form id="symptomForm">
+        <label for="symptoms">Enter your symptoms (separated by commas):</label>
+        <input type="text" id="symptoms" placeholder="e.g., pain chest, fever" required>
+        <button type="submit">Find Possible Diseases</button>
+    </form>
+
+    
+    <div class="results" id="results">
+    
+    </div>
+</div>
+
+
+<script src="{{ url_for('static', filename='app.js') }}"></script> 
+</body>
+</html>

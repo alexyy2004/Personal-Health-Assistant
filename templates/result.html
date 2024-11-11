@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Search</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Symptom Checker</h1>
+    <form id="search-form">
+        <label for="symptoms">Enter your symptoms (comma separated):</label><br>
+        <input type="text" id="symptoms" name="symptoms" required><br><br>
+        <button type="submit">Search</button>
+    </form>
+
+    <script>
+        $(document).ready(function () {
+            $('#search-form').on('submit', function (e) {
+                e.preventDefault();
+                const symptoms = $('#symptoms').val().split(',');
+
+                $.ajax({
+                    url: '/predict',
+                    method: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ symptoms: symptoms }),
+                    success: function (response) {
+                        // Store the result in localStorage and redirect to the results page
+                        localStorage.setItem('searchResults', JSON.stringify(response));
+                        window.location.href = '/results';
+                    },
+                    error: function (xhr, status, error) {
+                        alert('Error: ' + xhr.responseJSON.error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
