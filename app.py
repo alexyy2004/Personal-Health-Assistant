@@ -47,7 +47,7 @@ def calculate_possibility(user_symptoms, matched_diseases):
         return sorted(possibilities.items(), key=lambda x:x[1], reverse=True)
 
 
-file_path = 'E:\CS222_Project\cleaned_database1.csv'  
+file_path = '/Users/yueyan/Documents/GitHub/Fall24-CS222/cleaned_database1.csv'  
 disease_map = read_csv(file_path)
 
 @app.route('/')
