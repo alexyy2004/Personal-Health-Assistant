@@ -85,7 +85,7 @@ def calculate_possibility(diff_threshold, num, sum_threshold, user_symptoms, mat
 # Example usage
 if __name__ == "__main__":
     file_path = '/Users/yueyan/Documents/GitHub/Fall24-CS222/cleaned_database1.csv'  # Path to your CSV file
-    symptoms = ['pain chest']  # User-provided symptoms list
+    symptoms = ['vertigo']  # User-provided symptoms list
     disease_map = read_csv(file_path)
     # print(disease_map)
     sum_threshold = 60
