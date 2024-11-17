@@ -25,23 +25,23 @@ for index, row in df_selected.iterrows():
     })
 
 name = f'medicore'
-operation = genai.create_tuned_model(
-    # You can use a tuned model here too. Set `source_model="tunedModels/..."`
-    source_model=base_model.name,
-    training_data=training_data,
-    id = name,
-    epoch_count = 100,
-    batch_size=4,
-    learning_rate=0.001,
-)
+# operation = genai.create_tuned_model(
+#     # You can use a tuned model here too. Set `source_model="tunedModels/..."`
+#     source_model=base_model.name,
+#     training_data=training_data,
+#     id = name,
+#     epoch_count = 100,
+#     batch_size=4,
+#     learning_rate=0.001,
+# )
 
-print(operation.metadata)
-import time
+# print(operation.metadata)
+# import time
 
-for status in operation.wait_bar():
-    time.sleep(30)
-# model = genai.GenerativeModel(f'tunedModels/{name}')
+# for status in operation.wait_bar():
+#     time.sleep(30)
+model = genai.GenerativeModel(f'tunedModels/{name}')
 
-# result = model.generate_content('giddy mood')
+result = model.generate_content('I feel I have uncoordination')
 
-# print(result.text + model.state)
+print(result.text)
