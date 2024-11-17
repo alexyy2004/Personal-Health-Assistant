@@ -79,45 +79,27 @@
 
         .results {
             margin-top: 20px;
-            text-align: left;
         }
 
         .disease-item {
-            padding: 0;
-            margin: 10px 0;
-            background: none;
-            border: none;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #333;
-            font-size: 1rem;
-            font-weight: bold;
-            text-align: left;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 15px;
-            transition: background 0.3s, box-shadow 0.3s;
-        }
+            padding-left:15px; 
+			margin-top:-10px; 
+			background:none; 
+			border:none; 
+			width:auto; 
+			display:flex; 
+			justify-content:center; 
+			align-items:center; 
+			color:#333;font-size:.9rem;font-weight:bold;text-align:left;border-radius:px
+			border-radius:px
+		}
 
-        .disease-item:hover {
-            background: #f8f9fa;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-        }
-
-        .disease-item span {
-            display: inline-block;
-        }
-
-        .loading {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 1.2rem;
-            color: #555;
-            display: none;
-        }
+		/* Loading Spinner */
+		.loading {
+		    text-align:center; 
+		    margin-top:-20px; 
+		    font-size:.9rem;color:#555;display:none
+		}
     </style>
 </head>
 <body>
@@ -130,10 +112,12 @@
         <button type="submit">Find Possible Diseases</button>
     </form>
 
+    <!-- Loading Spinner -->
     <div class="loading" id="loading">
         <i class="fas fa-spinner fa-spin"></i> Processing your symptoms...
     </div>
 
+    <!-- Results Container -->
     <div class="results" id="results">
         <!-- Dynamic results will be displayed here -->
     </div>
@@ -146,6 +130,8 @@
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
+        
+        // Clear previous results and show loading spinner
         resultsContainer.innerHTML = '';
         loading.style.display = 'block';
 
@@ -160,30 +146,37 @@
 
             const data = await response.json();
 
+            // Hide loading spinner
             loading.style.display = 'none';
 
             if (response.ok) {
-                data.forEach(disease => {
-                    const diseaseItem = document.createElement('button');
-                    diseaseItem.className = 'disease-item';
-                    diseaseItem.innerHTML = `
-                        <span>${disease.disease}</span>
-                        <span>${disease.possibility.toFixed(2)}%</span>
-                    `;
-                    diseaseItem.onclick = () => {
-                        window.location.href = `/disease/${encodeURIComponent(disease.disease)}`;
-                    };
-                    resultsContainer.appendChild(diseaseItem);
-                });
+                if (data.length === 0) {
+                    resultsContainer.innerHTML = '<p>No diseases matched your symptoms.</p>';
+                } else if (data.message) {
+                    resultsContainer.innerHTML = `<p>${data.message}</p>`;
+                } else {
+                    data.forEach(disease => {
+                        const diseaseItem = document.createElement('div');
+                        diseaseItem.className = 'disease-item';
+                        diseaseItem.innerHTML = `
+                            <span>${disease.disease}</span>
+                            <span>${disease.possibility.toFixed(2)}%</span>
+                        `;
+                        resultsContainer.appendChild(diseaseItem);
+                    });
+                }
+                
             } else {
-                resultsContainer.innerHTML = `<p style="color: red;">${data.error}</p>`;
+                resultsContainer.innerHTML = `<p style="color:red;">${data.error || 'An error occurred.'}</p>`;
             }
+            
         } catch (error) {
-            loading.style.display = 'none';
-            resultsContainer.innerHTML = '<p style="color: red;">An error occurred. Please try again later.</p>';
-            console.error('Error:', error);
-        }
-    });
+             // Hide loading spinner and show error message
+             loading.style.display = 'none';
+             resultsContainer.innerHTML = '<p style="color:red;">An error occurred while fetching the data. Please try again later.</p>';
+             console.error('Error:', error);
+         }
+     });
 </script>
 
 </body>

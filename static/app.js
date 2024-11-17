@@ -3,29 +3,33 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultsDiv = document.getElementById('results');
 
     form.addEventListener('submit', function (e) {
-        e.preventDefault(); 
+        e.preventDefault(); // Prevent the form from submitting the traditional way
+
         const symptomsInput = document.getElementById('symptoms').value.trim();
         
         if (!symptomsInput) {
             resultsDiv.innerHTML = '<p style="color:red;">Please enter some symptoms.</p>';
-            return;
+            return; // Stop execution if no symptoms are entered
         }
 
         const symptoms = symptomsInput.split(',').map(symptom => symptom.trim());
 
-        resultsDiv.innerHTML = '';
+        resultsDiv.innerHTML = ''; // Clear previous results
 
+        // Send the symptoms to the server using a POST request
         fetch('/predict', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ symptoms }),
+            body: JSON.stringify({ symptoms }), // Send symptoms as JSON
         })
         .then(response => response.json())
         .then(data => {
             if (data.error) {
                 resultsDiv.innerHTML = `<p style="color:red;">${data.error}</p>`;
+            } else if (data.message) {
+                resultsDiv.innerHTML = `<p>${data.message}</p>`;
             } else {
                 displayResults(data);
             }
@@ -35,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    
     function displayResults(results) {
         if (results.length === 0) {
             resultsDiv.innerHTML = '<p>No diseases matched your symptoms.</p>';
