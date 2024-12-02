@@ -69,6 +69,7 @@ def calculate_possibility(diff_threshold, num, sum_threshold, user_symptoms, mat
     # check whether need more info
     sorted_poss = sorted(possibilities.items(), key=lambda x:x[1], reverse = True)
     sum = calculate_sum_probability(sorted_poss, num)
+    
     if sum < sum_threshold:
         need_more_info()
         
@@ -85,7 +86,7 @@ def calculate_possibility(diff_threshold, num, sum_threshold, user_symptoms, mat
 # Example usage
 if __name__ == "__main__":
     file_path = '/Users/yueyan/Documents/GitHub/Fall24-CS222/cleaned_database1.csv'  # Path to your CSV file
-    symptoms = ['vertigo']  # User-provided symptoms list
+    symptoms = ['fever']  # User-provided symptoms list
     disease_map = read_csv(file_path)
     # print(disease_map)
     sum_threshold = 60

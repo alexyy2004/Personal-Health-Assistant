@@ -56,6 +56,9 @@ def calculate_probability_diff(diff_threshold, sorted_poss, num):
             return False
     return True
 
+def print_need_more_info():
+    return "more information needed"
+
 def calculate_possibility(diff_threshold, num, sum_threshold, user_symptoms, matched_diseases):
     """Calculate the overlap rate between user-provided symptoms and each possible disease's symptoms."""
     user_symptoms_set = set(user_symptoms)
@@ -75,14 +78,16 @@ def calculate_possibility(diff_threshold, num, sum_threshold, user_symptoms, mat
     if total_sum < sum_threshold:
         return "more information needed"
     
-    if not calculate_probability_diff(diff_threshold, sorted_possibilities, num):
+    if calculate_probability_diff(diff_threshold, sorted_possibilities, num):
         return "more information needed"
 
     # Return top 10 diseases or fewer if less than 10 are available
-    return sorted_possibilities[:10]
+    # return sorted_possibilities[:10]
+    return sorted(possibilities.items(), key=lambda x:x[1], reverse = True)[:10]
+
 
 # Path to your CSV file (update this path as needed)
-file_path = 'E:/CS222_Project/cleaned_database1.csv'
+file_path = '/Users/yueyan/Documents/GitHub/Fall24-CS222/cleaned_database1.csv'
 disease_map = read_csv(file_path)
 
 @app.route('/')
@@ -99,9 +104,9 @@ def predict():
     user_symptoms = data['symptoms']
     
     # Default thresholds (you can adjust these values or pass them dynamically via request)
-    diff_threshold = 60 # Example threshold for probability difference
-    num_top_diseases = 10   # Number of top diseases to consider
-    sum_threshold = 3  # Example threshold for sum of probabilities
+    diff_threshold = 10 # Example threshold for probability difference
+    num_top_diseases = 3   # Number of top diseases to consider
+    sum_threshold = 60  # Example threshold for sum of probabilities
     
     matched_diseases = find_diseases_by_symptoms(user_symptoms, disease_map)
     
@@ -115,5 +120,7 @@ def predict():
     
     return jsonify(result)
 
+
 if __name__ == '__main__':
     app.run(debug=True)
+
