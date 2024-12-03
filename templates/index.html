@@ -173,8 +173,8 @@
 <!-- Navigation Bar -->
 <div class="nav-bar">
     <button onclick="navigateTo('home.html')">Home</button>
-    <button onclick="navigateTo('about.html')">About</button>
-    <button onclick="navigateTo('contact.html')">Contact</button>
+    <button onclick="navigateTo('login.html')">AIChatBot</button>
+    <button onclick="navigateTo('http://localhost:5001')">Login/Signup</button>
 </div>
 
 <div class="container">
@@ -199,14 +199,14 @@
 </div>
 
 <script>
+    // Navigation function
+    function navigateTo(page) {
+        window.location.href = page; // Change the current page to the specified page
+    }
+
     const form = document.getElementById('symptomForm');
     const loading = document.getElementById('loading');
     const resultsContainer = document.getElementById('results');
-
-    // Navigation function
-    function navigateTo(page) {
-        window.location.href = page;
-    }
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
