@@ -7,36 +7,30 @@ from flask_login import LoginManager, UserMixin, login_user, login_required, log
 from datetime import timedelta
 
 
-# 配置 Flask 应用
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'your_secret_key'  # 请替换为你的密钥
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'  # 使用 SQLite 数据库
+app.config['SECRET_KEY'] = 'your_secret_key' 
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'  
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SESSION_PERMANENT'] = False 
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(minutes=2) 
 
-# 初始化扩展
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 login_manager = LoginManager(app)
 login_manager.login_view = 'login'
 
-# 用户模型
 class User(UserMixin, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(150), unique=True, nullable=False)
     password = db.Column(db.String(150), nullable=False)
 
-# 加载用户回调
 @login_manager.user_loader
 def load_user(user_id):
     return User.query.get(int(user_id))
 
-# 创建数据库
 with app.app_context():
     db.create_all()
 
-# 配置 Google Generative AI
 genai.configure(api_key='AIzaSyAjA1-Yr0asaRzWv2Y4WrNiyIWdfdKY9CI')
 generation_config = {
   "temperature": 1,
@@ -69,7 +63,6 @@ model = genai.GenerativeModel(
 
 chat_session = model.start_chat(history=[])
 
-# 路由定义
 
 @app.route('/')
 @login_required
@@ -94,9 +87,9 @@ def login():
         if user and bcrypt.check_password_hash(user.password, password):
             login_user(user, remember=False)
             session.permanent = False
-            return jsonify({'message': '登录成功！'}), 200
+            return jsonify({'message': 'Login success!'}), 200
         else:
-            return jsonify({'error': '用户名或密码错误。'}), 401
+            return jsonify({'error': 'Wrong username or password'}), 401
 
     return render_template('login.html')
 
