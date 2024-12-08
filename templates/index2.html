@@ -6,54 +6,70 @@
     <title>AI Medical Assistant</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
+        /* Global Styles */
         body {
             font-family: 'Roboto', Arial, sans-serif;
             background: linear-gradient(to bottom right, #007bff, #00c6ff);
             margin: 0;
             padding: 0;
             color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             min-height: 100vh;
         }
 
+        /* Navigation Bar Styles */
+        .nav-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background: #000;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .nav-bar button {
+            background: #fff;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+
+        .nav-bar button:hover {
+            background: #f0f0f0;
+            transform: translateY(-2px);
+        }
+
+        .nav-bar button:active {
+            background: #ddd;
+        }
+
+        /* Container Styles */
         .container {
-            max-width: 600px;
+            margin-top: 100px; /* To account for fixed nav bar */
+            max-width: 800px;
             width: 90%;
             background-color: #fff;
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            margin-left: auto;
+            margin-right: auto;
             text-align: center;
-        }
-        .chat {
-            max-height: 400px;
-            overflow-y: auto;
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-
-        .user-message, .ai-message {
-            margin-bottom: 10px;
-            padding: 10px;
-            border-radius: 5px;
-            white-space: pre-wrap;
-        }
-        
-        .user-message {
-            background-color: #e0f7fa;
-            text-align: right;
-        }
-        
-        .ai-message {
-            background-color: #f1f8e9;
-            text-align: left;
-        }
-        
-        .loading {
-            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         h1 {
@@ -85,7 +101,7 @@
             outline: none;
         }
 
-        button {
+        button.submit-btn {
             width: 100%;
             padding: 15px;
             font-size: 1rem;
@@ -96,57 +112,94 @@
             cursor: pointer;
             transition: transform 0.3s ease, background 0.3s ease;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
         }
 
-        button:hover {
+        button.submit-btn:hover {
             transform: translateY(-2px);
             background: linear-gradient(to right, #0056b3, #003d80);
         }
 
-        .results {
-            margin-top: 20px;
-            text-align: left;
-        }
-
-        .disease-item {
-            padding: 0;
-            margin: 10px 0;
-            background: none;
-            border: none;
+        /* Chat Styles */
+        .chat {
+            max-height: 400px;
+            overflow-y: auto;
             width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            color: #333;
-            font-size: 1rem;
-            font-weight: bold;
-            text-align: left;
-            border: 1px solid #ddd;
+            border: 1px solid #ccc;
+            padding: 10px;
             border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            padding: 15px;
-            transition: background 0.3s, box-shadow 0.3s;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            text-align: left;
         }
 
-        .disease-item:hover {
-            background: #f8f9fa;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        .user-message, .ai-message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+        
+        .user-message {
+            background-color: #e0f7fa;
+            text-align: right;
+        }
+        
+        .ai-message {
+            background-color: #f1f8e9;
+            text-align: left;
+        }
+        
+        .loading {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #555;
+            display: none;
         }
 
-        .disease-item span {
-            display: inline-block;
+        /* Footer */
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            font-size: 1rem;
         }
 
+        /* Responsive Adjustments */
+        @media (max-width: 600px) {
+            .nav-bar button {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
     </style>
 </head>
 <body>
+
+    <!-- Navigation Bar -->
+    <div class="nav-bar">
+        <button onclick="navigateTo('home.html')">Home</button>
+        <button onclick="navigateTo('login.html')">AIChatBot</button>
+        <button onclick="navigateTo('http://localhost:5001')">Login/Signup</button>
+    </div>
 
     <div class="container">
         <h1>AI Medical Assistant</h1>
         <form id="chatForm">
             <label for="userInput">Enter your potential disease and message for the AI:</label>
             <input type="text" id="userInput" placeholder="e.g., I have a fever, what should I do?" required>
-            <button type="submit">Send</button>
+            <button type="submit" class="submit-btn">Send</button>
         </form>
 
         <div class="loading" id="loading">
@@ -158,6 +211,77 @@
         </div>
     </div>
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <div class="footer">
+        <p>&copy; 2024 AI Medical Assistant Platform. All rights reserved.</p>
+    </div>
+
+    <script>
+        // Navigation function
+        function navigateTo(page) {
+            window.location.href = page; // Change the current page to the specified page
+        }
+
+        const form = document.getElementById('chatForm');
+        const loading = document.getElementById('loading');
+        const chatContainer = document.getElementById('chat');
+
+        form.addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const userInput = document.getElementById('userInput').value.trim();
+            if (userInput === "") return;
+
+            // Display user message
+            const userMessage = document.createElement('div');
+            userMessage.className = 'user-message';
+            userMessage.textContent = userInput;
+            chatContainer.appendChild(userMessage);
+
+            // Scroll to the bottom
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+
+            // Clear input
+            document.getElementById('userInput').value = '';
+
+            // Show loading spinner
+            loading.style.display = 'block';
+
+            try {
+                const response = await fetch('/chat', { // Adjust the endpoint as needed
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: userInput })
+                });
+
+                const data = await response.json();
+
+                loading.style.display = 'none'; // Hide loading spinner
+
+                if (response.ok) {
+                    const aiMessage = document.createElement('div');
+                    aiMessage.className = 'ai-message';
+                    aiMessage.textContent = data.reply; // Adjust based on your backend response
+                    chatContainer.appendChild(aiMessage);
+                } else {
+                    const errorMessage = document.createElement('div');
+                    errorMessage.className = 'ai-message';
+                    errorMessage.style.color = 'red';
+                    errorMessage.textContent = data.error || 'An error occurred.';
+                    chatContainer.appendChild(errorMessage);
+                }
+
+                // Scroll to the bottom
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            } catch (error) {
+                loading.style.display = 'none';
+                const errorMessage = document.createElement('div');
+                errorMessage.className = 'ai-message';
+                errorMessage.style.color = 'red';
+                errorMessage.textContent = 'An error occurred. Please try again later.';
+                chatContainer.appendChild(errorMessage);
+                console.error('Error:', error);
+            }
+        });
+    </script>
+
 </body>
 </html>
