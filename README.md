@@ -3,10 +3,10 @@
 Summary of Presentation:
 
 
-Technical Architecture:
+Technical Architecture: \n
 We implement the backend based on flask framework. For the frontend, we use the HTML structure to accomplish the User Interface. We host the database locally in csv format files. For more data information and user interaction function, we access that by calling the google gemini-1.5-pro large language model.
 
-Installation Instruction:
+Installation Instruction: \n
 annotated-types              0.7.0
 bcrypt                       4.2.1
 blinker                      1.9.0
