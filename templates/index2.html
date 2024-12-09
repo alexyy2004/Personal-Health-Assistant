@@ -189,9 +189,9 @@
 
     <!-- Navigation Bar -->
     <div class="nav-bar">
-        <button onclick="navigateTo('home.html')">Home</button>
-        <button onclick="navigateTo('login.html')">AIChatBot</button>
-        <button onclick="navigateTo('http://localhost:5001')">Login/Signup</button>
+        <button onclick="navigateTo('index.html')">Home</button>
+        <button onclick="navigateTo('index2.html')">AIChatBot</button>
+        <button onclick="navigateTo('login.html')">Login/Signup</button>
     </div>
 
     <div class="container">
@@ -220,6 +220,20 @@
         function navigateTo(page) {
             window.location.href = page; // Change the current page to the specified page
         }
+
+        // Function to get query parameters
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // Pre-fill the text box if a "disease" query parameter exists
+        window.onload = () => {
+            const prefillDisease = getQueryParam('disease');
+            if (prefillDisease) {
+                document.getElementById('userInput').value = `I have a ${prefillDisease}, what should I do?`;
+            }
+        };
 
         const form = document.getElementById('chatForm');
         const loading = document.getElementById('loading');

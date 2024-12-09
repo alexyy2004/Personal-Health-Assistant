@@ -172,9 +172,9 @@
 
 <!-- Navigation Bar -->
 <div class="nav-bar">
-    <button onclick="navigateTo('home.html')">Home</button>
-    <button onclick="navigateTo('login.html')">AIChatBot</button>
-    <button onclick="navigateTo('http://localhost:5001')">Login/Signup</button>
+    <button onclick="navigateTo('index.html')">Home</button>
+    <button onclick="navigateTo('index2.html')">AIChatBot</button>
+    <button onclick="navigateTo('login.html')">Login/Signup</button>
 </div>
 
 <div class="container">
@@ -237,6 +237,9 @@
                             <span>${disease.disease}</span>
                             <span>${disease.possibility.toFixed(2)}%</span>
                         `;
+                        diseaseItem.onclick = () => {
+                        navigateTo(`index2.html?disease=${encodeURIComponent(disease.disease)}`);
+                        };
                         resultsContainer.appendChild(diseaseItem);
                     });
                 }
