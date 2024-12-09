@@ -1,7 +1,9 @@
 # Fall 2024 - CS222 Group 1 Personal Health Assistant
 
 ## Summary of Presentation
-This project is a Personal Health Assistant designed to provide user-friendly access to health-related information. The system integrates a backend and frontend to deliver efficient data interaction and presentation. The application leverages advanced machine learning models to enhance user experiences and accuracy in information delivery.
+This project is a Personal Health Assistant designed to provide accessible and user-friendly health-related information. The goal is to empower individuals in areas with limited medical resources to address daily health concerns more easily. With widespread internet coverage globally, users can access our Personal Health Assistant website to gain valuable insights into their health, even if formal medical advice is unavailable.
+
+The system features an integrated backend and frontend, ensuring efficient data interaction and a seamless user experience. By leveraging advanced machine learning models, the application delivers accurate and personalized health information to enhance user understanding and support informed decision-making.
 
 ---
 
@@ -19,6 +21,8 @@ To set up the environment, install the required dependencies listed below. You c
 ```bash
 pip install -r requirements.txt
 ```
+
+---
 
 ## Group Member and Corresponding Roles
 - Alex Yan: Backend Algorithm Development & Frontend Design
