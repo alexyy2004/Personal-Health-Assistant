@@ -146,9 +146,9 @@
 <body>
 
     <div class="nav-bar">
-        <button onclick="navigateTo('index.html')">Home</button>
-        <button onclick="navigateTo('index2.html')">AIChatBot</button>
-        <button onclick="navigateTo('login.html')">Login/Signup</button>
+        <button onclick="navigateTo('{{ url_for('index')}}')">Home</button>
+        <button onclick="navigateTo('{{ url_for('aichat')}}')">AIChatBot</button>
+        <button onclick="navigateTo('{{ url_for('login')}}'">Login/Signup</button>
     </div>
 
     <div class="container">
@@ -163,7 +163,7 @@
 
                 <button type="submit">Register</button>
                 <p class="error-message" id="errorMessage"></p>
-                <a href="login.html">Login your account</a>
+                <a href={{url_for('login')}}>Login your account</a>
             </form>
         </div>
     </div>

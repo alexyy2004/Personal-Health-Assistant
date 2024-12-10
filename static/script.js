@@ -38,7 +38,13 @@ function addMessageToChat(sender, message) {
     const messageItem = document.createElement('div');
     messageItem.className = sender === 'You' ? 'user-message' : 'ai-message';
     if (sender === 'AI') {
-        message = message.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        // 使用 Marked.js 解析 Markdown
+        const rawHtml = marked.parse(message);
+        // 使用 DOMPurify 净化 HTML
+        const cleanHtml = DOMPurify.sanitize(rawHtml);
+        message = cleanHtml;
+    } else {
+        // 对于用户消息，保持原样并处理换行
         message = message.replace(/\n/g, '<br>');
     }
     messageItem.innerHTML = `<strong>${sender}:</strong> ${message}`;

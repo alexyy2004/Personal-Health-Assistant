@@ -6,7 +6,7 @@
     <title>AI Medical Assistant</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
-        /* Global Styles */
+        /* 你的现有 CSS 样式 */
         body {
             font-family: 'Roboto', Arial, sans-serif;
             background: linear-gradient(to bottom right, #007bff, #00c6ff);
@@ -133,23 +133,29 @@
             text-align: left;
         }
 
-        .user-message, .ai-message {
+        .user-message, .ai-message, .error-message {
             margin-bottom: 10px;
             padding: 10px;
             border-radius: 5px;
             white-space: pre-wrap;
         }
-        
+
         .user-message {
             background-color: #e0f7fa;
             text-align: right;
         }
-        
+
         .ai-message {
             background-color: #f1f8e9;
             text-align: left;
         }
-        
+
+        .error-message {
+            background-color: #ffe0e0;
+            text-align: left;
+            color: red;
+        }
+
         .loading {
             text-align: center;
             margin-top: 20px;
@@ -184,21 +190,24 @@
             }
         }
     </style>
+    <!-- 引入 Marked.js 和 DOMPurify -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@2.3.10/dist/purify.min.js"></script>
 </head>
 <body>
 
     <!-- Navigation Bar -->
     <div class="nav-bar">
-        <button onclick="navigateTo('index.html')">Home</button>
-        <button onclick="navigateTo('index2.html')">AIChatBot</button>
-        <button onclick="navigateTo('login.html')">Login/Signup</button>
+        <button onclick="navigateTo('{{ url_for('index')}}')">Home</button>
+        <button onclick="navigateTo('{{ url_for('aichat')}}')">AIChatBot</button>
+        <button onclick="navigateTo('{{ url_for('aichat')}}')">Login/Signup</button>
     </div>
 
     <div class="container">
         <h1>AI Medical Assistant</h1>
         <form id="chatForm">
             <label for="userInput">Enter your potential disease and message for the AI:</label>
-            <input type="text" id="userInput" placeholder="e.g., I have a fever, what should I do?" required>
+            <input type="text" id="userInput" placeholder="e.g., I have a fever, what should I do?" value="{% if disease %} I have a {{ disease }}, what should I do?{% endif %}" required>
             <button type="submit" class="submit-btn">Send</button>
         </form>
 
@@ -221,80 +230,65 @@
             window.location.href = page; // Change the current page to the specified page
         }
 
-        // Function to get query parameters
-        function getQueryParam(param) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(param);
-        }
-
-        // Pre-fill the text box if a "disease" query parameter exists
-        window.onload = () => {
-            const prefillDisease = getQueryParam('disease');
-            if (prefillDisease) {
-                document.getElementById('userInput').value = `I have a ${prefillDisease}, what should I do?`;
-            }
-        };
-
         const form = document.getElementById('chatForm');
         const loading = document.getElementById('loading');
         const chatContainer = document.getElementById('chat');
+        const userInput = document.getElementById('userInput');
 
         form.addEventListener('submit', async (event) => {
             event.preventDefault();
-            const userInput = document.getElementById('userInput').value.trim();
-            if (userInput === "") return;
+            const message = userInput.value.trim();
+            if (!message) return;
 
-            // Display user message
-            const userMessage = document.createElement('div');
-            userMessage.className = 'user-message';
-            userMessage.textContent = userInput;
-            chatContainer.appendChild(userMessage);
-
-            // Scroll to the bottom
-            chatContainer.scrollTop = chatContainer.scrollHeight;
-
-            // Clear input
-            document.getElementById('userInput').value = '';
-
-            // Show loading spinner
+            // 显示用户消息
+            addMessageToChat('You', message);
+            userInput.value = '';
             loading.style.display = 'block';
 
+            console.log('发送的消息:', message); // 调试日志
+
             try {
-                const response = await fetch('/chat', { // Adjust the endpoint as needed
+                const response = await fetch('/chat', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ message: userInput })
+                    body: JSON.stringify({ message })
                 });
 
                 const data = await response.json();
-
-                loading.style.display = 'none'; // Hide loading spinner
+                console.log('服务器响应:', data); // 调试日志
+                loading.style.display = 'none';
 
                 if (response.ok) {
-                    const aiMessage = document.createElement('div');
-                    aiMessage.className = 'ai-message';
-                    aiMessage.textContent = data.reply; // Adjust based on your backend response
-                    chatContainer.appendChild(aiMessage);
+                    addMessageToChat('AI', data.response); // 确保使用 data.response
                 } else {
-                    const errorMessage = document.createElement('div');
-                    errorMessage.className = 'ai-message';
-                    errorMessage.style.color = 'red';
-                    errorMessage.textContent = data.error || 'An error occurred.';
-                    chatContainer.appendChild(errorMessage);
+                    addMessageToChat('Error', data.error || 'An error occurred.');
                 }
-
-                // Scroll to the bottom
-                chatContainer.scrollTop = chatContainer.scrollHeight;
             } catch (error) {
                 loading.style.display = 'none';
-                const errorMessage = document.createElement('div');
-                errorMessage.className = 'ai-message';
-                errorMessage.style.color = 'red';
-                errorMessage.textContent = 'An error occurred. Please try again later.';
-                chatContainer.appendChild(errorMessage);
+                addMessageToChat('Error', 'An error occurred. Please try again later.');
                 console.error('Error:', error);
             }
         });
+
+        function addMessageToChat(sender, message) {
+            const messageItem = document.createElement('div');
+            messageItem.className = sender === 'You' ? 'user-message' : (sender === 'AI' ? 'ai-message' : 'error-message');
+
+            if (sender === 'AI') {
+                // 使用 Marked.js 解析 Markdown
+                const rawHtml = marked.parse(message);
+                // 使用 DOMPurify 净化 HTML
+                const cleanHtml = DOMPurify.sanitize(rawHtml);
+                message = cleanHtml;
+            } else {
+                // 对于用户消息，保持原样并处理换行
+                message = message.replace(/\n/g, '<br>');
+            }
+
+            messageItem.innerHTML = `<strong>${sender}:</strong> ${message}`;
+            chatContainer.appendChild(messageItem);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
     </script>
 
 </body>
