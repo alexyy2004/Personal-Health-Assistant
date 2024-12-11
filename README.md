@@ -27,5 +27,5 @@ pip install -r requirements.txt
 ## Group Member and Corresponding Roles
 - Alex Yan: Backend Algorithm Development & Frontend Design
 - Zehao Song: API Integration & Frontend Design
-- Tianxiang Wu: Frontend Design
+- Tianxiang Wu: Backend Algorithm Development & Frontend Design
 - Yinan Wan: API Integration & Frontend Design
